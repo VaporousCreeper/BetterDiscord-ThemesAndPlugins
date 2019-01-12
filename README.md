@@ -1,2 +1,2 @@
 # BetterDiscord Themes & Plugins
-Where I store All Of My BetterDiscord Uploads
+Where I store all of my BetterDiscord themes
