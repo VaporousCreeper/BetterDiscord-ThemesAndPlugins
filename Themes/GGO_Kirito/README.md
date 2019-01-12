@@ -1,6 +1,6 @@
 # GGO Kirito
 
-Preview: ![MyImage]()
+Preview: ![Preview](https://raw.githubusercontent.com/VaporousCreeper/BetterDiscord/master/Themes/GGO_Kirito/GGO_Kirito_Preview.png)
 
 Background Img: https://wpblink.com/sites/default/files/wallpaper/anime/66761/sword-art-online-ii-wallpapers-hd-66761-327252.png 
 
