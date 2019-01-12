@@ -10,13 +10,13 @@ You are allowed to edit/add the code you given from me(VaporousCreeper#9514) or 
 */
 
 :root{
-    --background: url('https://wpblink.com/sites/default/files/wallpaper/anime/66761/sword-art-online-ii-wallpapers-hd-66761-327252.png');
+    	--background: url('https://wpblink.com/sites/default/files/wallpaper/anime/66761/sword-art-online-ii-wallpapers-hd-66761-327252.png');
 
-    --transparency-1: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.55));
+    	--transparency-1: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.55));
 	--transparency-2: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.55));
 	--transparency-3: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.55));
 	--transparency-4: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.55));
-    --transparency-5: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.55));
+    	--transparency-5: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.55));
 }
 
 /*Background Img*/
@@ -79,6 +79,9 @@ You are allowed to edit/add the code you given from me(VaporousCreeper#9514) or 
 .isMentionedCozy-3isp7y {background-color: rgba(150,0,0,0.3)!important;}
 .isMentionedCozy-3isp7y:after {background: red; border-left: 4px solid red; width: 1px;}
 code , pre {background-color: rgba(50,50,50,0.3)!important}
+
+.messageGroupBlocked-3wrQQX {background-color: rgba(50,50,50,0.5)!important;}
+.messageGroupBlockedBtn-1PBBh- {background-color: transparent!important; color: red!important;}
 
 /*ScrollBars*/
 ::-webkit-scrollbar-thumb {background-color: rgba(150,0,0,0.6)!important; border-color: transparent!important;}
