@@ -13,5 +13,3 @@ Transparency2 Module: https://raw.githack.com/Ruben7173/Ruben7173.github.io/mast
 The 2 items above are not owned by me, They go to there respected owners
 
 As the author of this theme, (VaporousCreeper#9514) has all rights towards this theme, You are not allowed to redistribute this theme to others and mark as yours. You are allowed to edit/add the code you given from (VaporousCreeper#9514) or it has a '.theme.css' at the end of the file name
-
-Copyright © 2018-19, VaporousCreeper
