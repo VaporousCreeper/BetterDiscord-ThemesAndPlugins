@@ -1,15 +1,10 @@
 # GGO Kirito
 
 ## Previews
-### Preview1 
 ![Preview1](https://raw.githubusercontent.com/VaporousCreeper/BetterDiscord/master/Themes/GGO_Kirito/GGO_Kirito_Preview1.png)
-### Preview2 
 ![Preview2](https://raw.githubusercontent.com/VaporousCreeper/BetterDiscord/master/Themes/GGO_Kirito/GGO_Kirito_Preview2.png)
-### Preview3 
-![Preview3](https://raw.githubusercontent.com/VaporousCreeper/BetterDiscord/master/Themes/GGO_Kirito/GGO_Kirito_Preview3.png)
-### Preview4 
+![Preview3](https://raw.githubusercontent.com/VaporousCreeper/BetterDiscord/master/Themes/GGO_Kirito/GGO_Kirito_Preview3.png) 
 ![Preview4](https://raw.githubusercontent.com/VaporousCreeper/BetterDiscord/master/Themes/GGO_Kirito/GGO_Kirito_Preview4.png)
-### Preview5 
 ![Preview5](https://raw.githubusercontent.com/VaporousCreeper/BetterDiscord/master/Themes/GGO_Kirito/GGO_Kirito_Preview5.png)
 
 Background Img: https://wpblink.com/sites/default/files/wallpaper/anime/66761/sword-art-online-ii-wallpapers-hd-66761-327252.png 
