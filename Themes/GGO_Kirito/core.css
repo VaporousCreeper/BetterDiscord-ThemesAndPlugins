@@ -13,9 +13,9 @@ You are allowed to edit/add the code you given from me(VaporousCreeper#9514) or 
     --background: url('https://wpblink.com/sites/default/files/wallpaper/anime/66761/sword-art-online-ii-wallpapers-hd-66761-327252.png');
 
     --transparency-1: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.55));
-    --transparency-2: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.55));
-    --transparency-3: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.55));
-    --transparency-4: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.55));
+	--transparency-2: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.55));
+	--transparency-3: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.55));
+	--transparency-4: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.55));
     --transparency-5: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.55));
 }
 
@@ -139,10 +139,16 @@ polyline[stroke='#7289da']{stroke:red}
 .game-1ipmAa:before , .emojiRow-zIc7ZX:before , .member-1q7VfX:before , .inviteSettingsInviteRow-3p2O-N:before , .guild-settings-banned-user:before , .bannedUser-1IalTM:before {background-color: rgba(50,50,50,0.5)!important}
 .searchBar-1MOL6S {background-color: rgba(50,50,50,0.5)!important}
 
+.video-34IsHk {width: 660px; margin: auto; margin-bottom: 15px}
+.section-2YzZxo  {width: 660px; margin: auto}
+.sectionTier1-2w9cqh {width: 660px; margin: auto; margin-top: 15px}
+
 /*ChangeLog And Other Popups*/
-.modal-3HD5ck , .bd-modal-inner , .messagesPopoutWrap-1MQ1bW , .messageGroupWrapper-o-Zw7G , .container-3ayLPN , .searchResultsWrap-2DKFzt {background-color: rgba(25,25,25,0.5)!important; border-radius: 10px!important;}
+.modal-3HD5ck , .bd-modal-inner , .messagesPopoutWrap-1MQ1bW , .messageGroupWrapper-o-Zw7G , .container-3ayLPN , .searchResultsWrap-2DKFzt , .quickswitcher-3JagVE {background-color: rgba(25,25,25,0.5)!important; border-radius: 10px!important;}
 .footer-2yfCgX , .footer-3mqk7D  {background-color: rgba(0,0,0,0.5)!important; border-radius: 0 0 10px 10px;}
 .header-1R_AjF {background-color: transparent;}
+
+.input-2VB9rf {background-color: rgba(50,50,50,0.5)!important}
 
 .bodyTitle-Y0qMQz {background-color: rgba(0,0,0,0.5); padding: 3px; text-align: center; border-radius: 10px; color: white;}
 
@@ -195,3 +201,5 @@ polyline[stroke='#7289da']{stroke:red}
 .da-activityName {color: white!important;}
 .channelTextArea-1LDbYG .inner-zqa7da , .autocomplete-1vrmpx {background-color: rgba(50,50,50,0.5)!important;}
 .selected-1HYmZZ a {background-color: rgba(150,150,150,0.4)!important; margin-left: 15px}
+.previewOverlay-2O7_KC , .formNotice-2_hHWR {background-color: rgba(50,50,50,0.5)!important}
+.media-engine-video {background: transparent!important;}
