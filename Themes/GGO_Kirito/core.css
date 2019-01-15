@@ -8,17 +8,46 @@ The 2 items above are not owned by me, They go to there respected owners
 */
 
 :root{
-    	--background: url('https://wpblink.com/sites/default/files/wallpaper/anime/66761/sword-art-online-ii-wallpapers-hd-66761-327252.png');
+    --background: url('https://wpblink.com/sites/default/files/wallpaper/anime/66761/sword-art-online-ii-wallpapers-hd-66761-327252.png');
 
-    	--transparency-1: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.55));
+    --transparency-1: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.55));
 	--transparency-2: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.55));
 	--transparency-3: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.55));
 	--transparency-4: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.55));
-    	--transparency-5: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.55));
+    --transparency-5: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.55));
 }
 
+/*Edited version of Transparency2 by Ruben7173*/
+	/* removing backgrounds */
+	.container-2lgZY8, .channels-Ie2l6A, .da-app .layer-3QrUeG, .da-app .layers-3iHuyZ, .da-app .chat-3bRxxu, .da-app .channelTextArea-rNsIhG, .da-app .content-yTz4x3, .da-app .messagesWrapper-3lZDfY, .da-app .chat-3bRxxu form, .da-app .members-1998pB, .da-app .headerBar-UHpsPw, .da-app .standardSidebarView-3F1I7i, .da-app .typing-2GQL18 {
+		background: transparent;
+	}
+	/* Guild and Top bar transparency */
+	.da-app .guildsWrapper-5TJh6A {background:transparent; background-image: var(--transparency-1);}
+	/* transparency for channels and members list and private channels and left side of settings*/
+	.container-PNkimc, .privateChannels-1nO12o, .da-app .sidebarRegion-VFTUkN, .da-app .container-2Thooq {background: transparent; background-image: var(--transparency-2);}
+	/* chat and top area and other secondary pages */
+	.da-app .activityFeed-28jde9, .da-app .gameLibrary-TTDw4Y, .da-app .applicationStore-1pNvnv, .theme-dark #friends, .da-app .contentRegion-3nDuYy, .da-app .noChannel-Z1DQK7, .da-app .container-3gCOGc, .da-app .root-1BQpZw {
+		background: transparent; background-image: var(--transparency-3);
+	}
+	/* extra for transparency 3 special case */
+	.themeDark-3Ap_7i, .da-app .chat-3bRxxu {background-color: transparent; background-image: var(--transparency-3);}
+
+	.typeWindows-1za-n7 {background-image: var(--transparency-5);}
+
+	/* removes margin from top area and adds it to the nav buttons + discord logo */
+	.typeWindows-1za-n7 {height: 21px; margin-top: 0px;}
+	.flexCenter-3_1bcw {margin-top: 3px;}
+	/* removes a border under better discord at channels */
+	.unread-1xRYoj {display:none;}
+	/* removes a margin bottom */
+	.container-2Thooq {margin-bottom: 0px;}
+	.base-3dtUhz {border-radius:0px;}
+
+
 /*Background Img*/
-.appMount-3VJmYg{ background-image: var(--background); background-position: center; background-size: cover}
+.appMount-3lHmkl {background-image: var(--background); background-position: center; background-size: cover; background-color: transparent!important;}
+
 
 /*Home*/
 .tabBar-1E2ExX .primarySelected-3uHKZn {color: red!important;}
@@ -145,9 +174,10 @@ polyline[stroke='#7289da']{stroke:red}
 .sectionTier1-2w9cqh {width: 660px; margin: auto; margin-top: 15px}
 
 /*ChangeLog And Other Popups*/
-.modal-3HD5ck , .bd-modal-inner , .messagesPopoutWrap-1MQ1bW , .messageGroupWrapper-o-Zw7G , .container-3ayLPN , .searchResultsWrap-2DKFzt , .quickswitcher-3JagVE {background-color: rgba(25,25,25,0.5)!important; border-radius: 10px!important;}
+.modal-3HD5ck , .bd-modal-inner , .messagesPopoutWrap-1MQ1bW , .messageGroupWrapper-o-Zw7G , .container-3ayLPN , .searchResultsWrap-2DKFzt , .quickswitcher-3JagVE , 
+.react-datepicker {background-color: rgba(25,25,25,0.5)!important; border-radius: 10px!important;}
 .footer-2yfCgX , .footer-3mqk7D  {background-color: rgba(0,0,0,0.5)!important; border-radius: 0 0 10px 10px;}
-.header-1R_AjF {background-color: transparent;}
+.header-1R_AjF , .react-datepicker__header {background-color: transparent!important;}
 
 .input-2VB9rf {background-color: rgba(50,50,50,0.5)!important}
 
@@ -180,8 +210,10 @@ polyline[stroke='#7289da']{stroke:red}
 	.searchResult-3pzFAB {border: 2px solid rgb(40,40,40); border-radius: 10px; background-color: rgba(50,50,50,0.5)}
 	.searchResult-3pzFAB:before {border-radius: 10px;}
 
+	.react-datepicker__day:hover {background-color: red!important}
+	.hintValue-29ny8Z {background-color: red!important}
 /*Emoji Menu*/
-.emojiPicker-3m1S-j , #bda-qem , #bda-qem-twitch-container , #bda-qem-favourite-container {background-color: rgba(0,0,0,0.5); border: 0;}
+.emojiPicker-3m1S-j , #bda-qem , #bda-qem-twitch-container , #bda-qem-favourite-container {background-color: rgba(0,0,0,0.5)!important; border: 0;}
 .header-1nkwgG {background-color: rgba(0,0,0,0.5)!important;}
 .header-1nkwgG .searchBar-2_Yu-C {background-color: transparent!important;}
 .header-1nkwgG .searchBar-2_Yu-C input {color: white!important;}
@@ -190,17 +222,24 @@ polyline[stroke='#7289da']{stroke:red}
 .categories-1feg4n .selected-39BZ4S {border-color: red!important}
 .emojiPicker-3m1S-j ::-webkit-scrollbar-track {background-color: transparent!important}
 
-#bda-qem button {color: white; box-shadow: 0 0 0 0; border: 0;}
-#bda-qem button:hover {background-color: rgba(100,100,100,0.5);}
-#bda-qem button.active {background-color: rgba(150,150,150,0.5);}
+#bda-qem button {color: white; box-shadow: 0 0 0 0!important; border: 0!important;}
+#bda-qem button:hover {background-color: rgba(100,100,100,0.5)!important;}
+#bda-qem button.active {background-color: rgba(150,150,150,0.5)!important;}
 
 /*Other*/
 .noticeRegion-1YviSH {margin: auto;}
 .notice-2FJMB4 {background-color:red!important;}
-.lookLink-9FtZy- , .anchor-3Z-8Bb , .bda-link , a[target=_blank] {color: red!important;}
+.lookLink-9FtZy- , .anchor-3Z-8Bb , .bda-link , a[target=_blank] , .sampleLink-KPFu3I {color: red!important;}
 .foreground-2aE44H {stroke: red;}
 .da-activityName {color: white!important;}
 .channelTextArea-1LDbYG .inner-zqa7da , .autocomplete-1vrmpx {background-color: rgba(50,50,50,0.5)!important;}
 .selected-1HYmZZ a {background-color: rgba(150,150,150,0.4)!important; margin-left: 15px}
 .previewOverlay-2O7_KC , .formNotice-2_hHWR {background-color: rgba(50,50,50,0.5)!important}
 .media-engine-video {background: transparent!important;}
+
+.animator-US5i9g .modal-3HD5ck {background-color: transparent!important}
+.animator-US5i9g {border-radius: 10px; background-color: rgba(25,25,25,0.5)!important}
+.action-1lSjCi {background-color: white!important;}
+.regionSelect-3lf4eE .regionSelectInner-24f4Ce:hover {border-bottom-color: red!important}
+.regionSelect-3lf4eE button {background-color: red!important}
+
