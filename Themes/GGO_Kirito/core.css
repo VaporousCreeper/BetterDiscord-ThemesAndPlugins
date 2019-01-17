@@ -231,10 +231,10 @@ a[href="https://github.com/rauenzi/"] {margin-bottom: 10px!important}
 
 .channels-Ie2l6A .container-2Thooq {padding-bottom: 20px}
 .channels-Ie2l6A .container-2Thooq:after {
-	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 180" style="width:100%;height:100px;"><g style="font-family:verdana"><text y="25" x="18" style="font-size: 1.4em; font-weight: bold; fill: rgb(120,120,120);">GGO Kirito v1.1.0</text> <text y="50" style="font-size: 1.4em; font-weight: bold; fill: rgb(120,120,120);">By VaporousCreeper</text> </g></svg>')!important;
+	content: "GGO Kirito "var(--Version)" By VaporousCreeper"!important;
+	color: rgb(255,255,255,.3);
+	font-weight: 500;
 	position: absolute;
-	left: 112px;
-	top: 97%;
-	width: 900px;
-	height: 10px
+	left: 73px;
+	bottom: 9px;
 }
