@@ -17,6 +17,16 @@ The 2 items above are not owned by me, They go to there respected owners
     --transparency-5: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.55));
 }
 
+.channels-Ie2l6A .container-2Thooq {padding-bottom: 20px}
+.channels-Ie2l6A .container-2Thooq:after {
+	content: "GGO Kirito "var(--Version)" By VaporousCreeper"!important;
+	color: rgb(255,255,255,.3);
+	font-weight: 500;
+	position: absolute;
+	left: 73px;
+	bottom: 9px;
+}
+
 
 /*Background Img*/
 .appMount-3lHmkl {background-image: var(--background); background-position: center; background-size: cover; background-color: transparent!important;}
@@ -227,14 +237,3 @@ a[target=_blank] {color: red;}
 .previewOverlay-2O7_KC , .formNotice-2_hHWR {background-color: rgba(50,50,50,0.5)!important}
 .media-engine-video {background: transparent!important;}
 a[href="https://github.com/rauenzi/"] {margin-bottom: 10px!important}
-
-
-.channels-Ie2l6A .container-2Thooq {padding-bottom: 20px}
-.channels-Ie2l6A .container-2Thooq:after {
-	content: "GGO Kirito "var(--Version)" By VaporousCreeper"!important;
-	color: rgb(255,255,255,.3);
-	font-weight: 500;
-	position: absolute;
-	left: 73px;
-	bottom: 9px;
-}
