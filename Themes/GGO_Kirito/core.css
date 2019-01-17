@@ -1,11 +1,5 @@
-/*
-Theme Owned and Made by VaporousCreeper#9514
-
-Background Img: https://wpblink.com/sites/default/files/wallpaper/anime/66761/sword-art-online-ii-wallpapers-hd-66761-327252.png 
-Transparency2 Module: https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Modules/transparency2.css - By Ruben7173#5048
-
-The 2 items above are not owned by me, They go to there respected owners
-*/
+//META{"name":"DEV GGO Kirito","description":"A theme with Kirito and Deathgun fighting in GGO","author":"VaporousCreeper","version":"DEV","source":"https://github.com/VaporousCreeper/BetterDiscord/tree/master/Themes/GGO_Kirito"}*//
+@import url('https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Modules/transparency2.css');
 
 :root{
     --background: url('https://wpblink.com/sites/default/files/wallpaper/anime/66761/sword-art-online-ii-wallpapers-hd-66761-327252.png');
@@ -17,9 +11,9 @@ The 2 items above are not owned by me, They go to there respected owners
     --transparency-5: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.55));
 }
 
+
 /*Background Img*/
 .appMount-3lHmkl {background-image: var(--background); background-position: center; background-size: cover; background-color: transparent!important;}
-
 
 /*Home*/
 .tabBar-1E2ExX .primarySelected-3uHKZn {color: red!important;}
@@ -84,8 +78,9 @@ code , pre {background-color: rgba(50,50,50,0.3)!important}
 
 /*ScrollBars*/
 ::-webkit-scrollbar-thumb {background-color: rgba(150,0,0,0.6)!important; border-color: transparent!important;}
-.messagesWrapper-3lZDfY .scrollerWrap-2lJEkd ::-webkit-scrollbar-track-piece  {background-color: transparent!important; border-color: transparent!important;}
-.messagesWrapper-3lZDfY .scrollerWrap-2lJEkd ::-webkit-scrollbar-track {background-color: rgba(150,0,0,0.4)!important; border-radius: 10px; border-color: rgba(150,0,0,0.4)!important}
+.messagesWrapper-3lZDfY ::-webkit-scrollbar-track-piece {background-color: transparent!important; border-color: transparent!important;}
+.messagesWrapper-3lZDfY ::-webkit-scrollbar-track {background-color: rgba(150,0,0,0.4)!important; border-radius: 10px; border-color: rgba(150,0,0,0.4)!important}
+
 
 /*Context Menu*/
 .menu-Sp6bN1 , .contextMenu-HLZMGh {background-color: rgba(10,10,10,0.6)!important}
@@ -105,7 +100,7 @@ input[type=checkbox]:checked+span,.checkbox-1ix_J3{border-color:red!important;ba
 .popout-open {background-color: background-color: rgba(100,100,100,0.6)!important}
 
 /*Inputs*/
-.lookFilled-1Gx00P, .valueChecked-m-4IJZ, .bd-pfbtn, .checked, .bda-settings-button , .addButton-pcyyf6 , .tabBar-1E2ExX .primary-3j8BhM {background-color: red!important;}
+.lookFilled-1Gx00P, .valueChecked-m-4IJZ, .bd-pfbtn, .checked, .bda-settings-button , .addButton-pcyyf6 , .tabBar-1E2ExX .primary-3j8BhM , .da-selected[style*="rgb(114, 137, 218)"] {background-color: red!important;}
 .barFill-23-gu- , .itemSelected-1qLhcL.da-role {background-color: red}
 .inputDefault-_djjkz:focus , .focused-1mmYsC {border-color: red!important}
 .questionMark-CWEQZn {background-color: red!important; margin-bottom: 4px}
@@ -147,7 +142,7 @@ polyline[stroke='#7289da']{stroke:red}
 
 /*ChangeLog And Other Popups*/
 .modal-3HD5ck , .bd-modal-inner , .messagesPopoutWrap-1MQ1bW , .messageGroupWrapper-o-Zw7G , .container-3ayLPN , .searchResultsWrap-2DKFzt , .quickswitcher-3JagVE , 
-.react-datepicker {background-color: rgba(25,25,25,0.5)!important; border-radius: 10px!important;}
+.react-datepicker , .popoutList-T9CKZQ  {background-color: rgba(25,25,25,0.5)!important; border-radius: 10px!important;}
 .footer-2yfCgX , .footer-3mqk7D  {background-color: rgba(0,0,0,0.5)!important; border-radius: 0 0 10px 10px;}
 .header-1R_AjF , .react-datepicker__header {background-color: transparent!important;}
 
@@ -177,22 +172,38 @@ polyline[stroke='#7289da']{stroke:red}
 
 	/*Search Popup*/
 	.searchHeader-1l-wpR , .header-ykumBX {background-color: rgba(50,50,50,0.5)!important; border-radius: 10px 10px 0 0!important;}
-	.option-96V44q.selected-rZcOL- , .message-2qRu38 , .dockItem-2kQDqg:hover , .card-7JP0BX , .hit-NLlWXA {background-color: rgba(50,50,50,0.5)!important; border-radius: 10px;}
+	.option-96V44q.selected-rZcOL- , .message-2qRu38 , .dockItem-2kQDqg:hover , .card-7JP0BX , .hit-NLlWXA {background-color: rgba(100,100,100,0.5)!important; border-radius: 10px;}
 	.channelName-1QajIf {background-color: transparent!important;}
 	.searchResult-3pzFAB {border: 2px solid rgb(40,40,40); border-radius: 10px; background-color: rgba(50,50,50,0.5)}
 	.searchResult-3pzFAB:before {border-radius: 10px;}
+	.option-96V44q:after {background-image: none!important;}
 
 	.react-datepicker__day:hover {background-color: red!important}
+	.react-datepicker__day--disabled , .react-datepicker__day--outside-month {background-color: rgba(10,10,10,0.5)!important}
+	.react-datepicker__day--disabled:hover , .react-datepicker__day--outside-month:hover {background-color: rgba(255,0,0,0.5)!important}
+	.react-datepicker__day--selected::after {background-color: red!important}
 	.hintValue-29ny8Z {background-color: red!important}
+
+	/*Join & Create Server Popup*/
+	.animator-US5i9g .modal-3HD5ck {background-color: transparent!important}
+	.animator-US5i9g {border-radius: 10px; background-color: rgba(25,25,25,0.5)!important}
+	.action-1lSjCi {background-color: white!important;}
+
+	input[placeholder]:focus {border-color: #43b581!important;}
+	.sampleLink-KPFu3I {color: #43b581!important;}
+
+	input[placeholder="Enter a server name"]:focus {border-color: rgb(114, 137, 218)!important;}
+	a[href="//discordapp.com/guidelines"] {color: rgb(114, 137, 218)!important;}
+
 /*Emoji Menu*/
 .emojiPicker-3m1S-j , #bda-qem , #bda-qem-twitch-container , #bda-qem-favourite-container {background-color: rgba(0,0,0,0.5)!important; border: 0;}
 .header-1nkwgG {background-color: rgba(0,0,0,0.5)!important;}
+.searchBarInner-1_Tg2R {background-color: rgba(50,50,50,0.5)!important}
 .header-1nkwgG .searchBar-2_Yu-C {background-color: transparent!important;}
-.header-1nkwgG .searchBar-2_Yu-C input {color: white!important;}
+.header-1nkwgG .searchBarInner-1_Tg2R input {color: white!important;}
 ::-webkit-input-placeholder {color: rgba(255,255,255,0.5)!important;}
 .stickyHeader-1SS0JU {background-color: rgba(0,0,0,0.5)!important; border-radius: 0 0 10px 10px}
 .categories-1feg4n .selected-39BZ4S {border-color: red!important}
-.emojiPicker-3m1S-j ::-webkit-scrollbar-track {background-color: transparent!important}
 
 #bda-qem button {color: white; box-shadow: 0 0 0 0!important; border: 0!important;}
 #bda-qem button:hover {background-color: rgba(100,100,100,0.5)!important;}
@@ -201,17 +212,23 @@ polyline[stroke='#7289da']{stroke:red}
 /*Other*/
 .noticeRegion-1YviSH {margin: auto;}
 .notice-2FJMB4 {background-color:red!important;}
-.lookLink-9FtZy- , .anchor-3Z-8Bb , .bda-link , a[target=_blank] , .sampleLink-KPFu3I {color: red!important;}
+.lookLink-9FtZy- , .anchor-3Z-8Bb , .bda-link {color: red!important;}
+a[target=_blank] {color: red;}
 .foreground-2aE44H {stroke: red;}
 .da-activityName {color: white!important;}
 .channelTextArea-1LDbYG .inner-zqa7da , .autocomplete-1vrmpx {background-color: rgba(50,50,50,0.5)!important;}
 .selected-1HYmZZ a {background-color: rgba(150,150,150,0.4)!important; margin-left: 15px}
 .previewOverlay-2O7_KC , .formNotice-2_hHWR {background-color: rgba(50,50,50,0.5)!important}
 .media-engine-video {background: transparent!important;}
+a[href="https://github.com/rauenzi/"] {margin-bottom: 10px!important}
 
-.animator-US5i9g .modal-3HD5ck {background-color: transparent!important}
-.animator-US5i9g {border-radius: 10px; background-color: rgba(25,25,25,0.5)!important}
-.action-1lSjCi {background-color: white!important;}
-.regionSelect-3lf4eE .regionSelectInner-24f4Ce:hover {border-bottom-color: red!important}
-.regionSelect-3lf4eE button {background-color: red!important}
 
+.channels-Ie2l6A .container-2Thooq {padding-bottom: 20px}
+.channels-Ie2l6A .container-2Thooq:after {
+	content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 180" style="width:100%;height:100px;"><g style="font-family:verdana"><text y="25" x="18" style="font-size: 1.4em; font-weight: bold; fill: rgb(120,120,120);">GGO Kirito v1.1.0</text> <text y="50" style="font-size: 1.4em; font-weight: bold; fill: rgb(120,120,120);">By VaporousCreeper</text> </g></svg>')!important;
+	position: absolute;
+	left: 5.8%;
+	top: 97.2%;
+	width: 47%;
+	height: 1%
+}
