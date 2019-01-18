@@ -228,7 +228,7 @@ a[target=_blank] {color: red;}
 a[href="https://github.com/rauenzi/"] {margin-bottom: 10px!important}
 
 .channels-Ie2l6A .container-2Thooq {padding-bottom: 20px}
-.channels-Ie2l6A .container-2Thooq:after {
+.channels-Ie2l6A .container-2Thooq:before {
 	content: "GGO Kirito "var(--Version)" By VaporousCreeper"!important;
 	color: rgb(255,255,255,.3);
 	font-weight: 500;
