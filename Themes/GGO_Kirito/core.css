@@ -1,13 +1,5 @@
-/*
-Theme Owned and Made by VaporousCreeper#9514
-  
-Background Img: https://wpblink.com/sites/default/files/wallpaper/anime/66761/sword-art-online-ii-wallpapers-hd-66761-327252.png 
-Transparency2 Module: https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Modules/transparency2.css - By Ruben7173#5048
-
-The 2 items above are not owned by me, They go to there respected owners 
-*/
-
 :root{
+	--Version: "v1.1.0";
     --background: url('https://wpblink.com/sites/default/files/wallpaper/anime/66761/sword-art-online-ii-wallpapers-hd-66761-327252.png');
 
     --transparency-1: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.55));
@@ -16,6 +8,7 @@ The 2 items above are not owned by me, They go to there respected owners
 	--transparency-4: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.55));
     --transparency-5: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.55));
 }
+
 
 /*Background Img*/
 .appMount-3lHmkl {background-image: var(--background); background-position: center; background-size: cover; background-color: transparent!important;}
@@ -194,7 +187,7 @@ polyline[stroke='#7289da']{stroke:red}
 	.animator-US5i9g {border-radius: 10px; background-color: rgba(25,25,25,0.5)!important}
 	.action-1lSjCi {background-color: white!important;}
 
-	input[placeholder]:focus {border-color: #43b581!important;}
+	input#1:focus {border-color: #43b581!important;}
 	.sampleLink-KPFu3I {color: #43b581!important;}
 
 	input[placeholder="Enter a server name"]:focus {border-color: rgb(114, 137, 218)!important;}
@@ -225,17 +218,14 @@ a[target=_blank] {color: red;}
 .selected-1HYmZZ a {background-color: rgba(150,150,150,0.4)!important; margin-left: 15px}
 .previewOverlay-2O7_KC , .formNotice-2_hHWR {background-color: rgba(50,50,50,0.5)!important}
 .media-engine-video {background: transparent!important;}
-a[href="https://github.com/rauenzi/"] {margin-bottom: 10px!important}
 
 .channels-Ie2l6A .container-2Thooq {padding-bottom: 20px}
-.channels-Ie2l6A .container-2Thooq:before {
+.channels-Ie2l6A .container-2Thooq:after {
 	content: "GGO Kirito "var(--Version)" By VaporousCreeper"!important;
 	color: rgb(255,255,255,.3);
 	font-weight: 500;
 	position: absolute;
 	left: 73px;
 	bottom: 9px;
-	
-	right: 0;
-	top: 0;
 }
+
