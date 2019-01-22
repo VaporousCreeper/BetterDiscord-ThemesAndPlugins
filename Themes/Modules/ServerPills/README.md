@@ -41,3 +41,6 @@ Then change the following settings that you want
 ## Notes
 This module is free for everyone to use in any theme but if you're using the module for a theme to go public, make sure you add me to the credits<br/>
 Don't hesitate to ask questions about this module
+
+## Preview
+![Preview1](https://raw.githubusercontent.com/VaporousCreeper/BetterDiscord/master/Themes/Modules/ServerPills/ServerPills_Preview.png)
