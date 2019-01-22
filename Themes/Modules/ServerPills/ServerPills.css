@@ -1,0 +1,54 @@
+/*Setting up default vars*/
+:root {
+	--Closed: 25px;
+	--Opened: 50px;
+	--BorderRadius: 15px; 
+
+	--Duration: 200ms;
+	--AnimationType: ease-in-out;
+}
+
+/*Setting up transitions*/
+.guild-1EfMGQ .guildIcon-CT-ZDq ,
+.guild-1EfMGQ .guildInner-3DSoA4 a {
+	background-position: center; 
+	background-size: cover; 
+	height: var(--Closed) !important;
+}
+
+.guild-1EfMGQ ,
+.guild-1EfMGQ .guildInner-3DSoA4 {
+	height: var(--Closed);
+}
+
+.guild-1EfMGQ ,
+.guild-1EfMGQ .guildIcon-CT-ZDq,
+.guild-1EfMGQ .guildInner-3DSoA4 a,
+.guild-1EfMGQ .guildInner-3DSoA4 {
+	border-radius: var(--BorderRadius)!important;
+	
+	transition: var(--Duration); 
+	transition-timing-function: var(--AnimationType);
+	transition-property: height,background-position;
+}
+
+#bd-pub-li , #bd-pub-li .guildInner-3DSoA4 {max-height: 20px}
+.guild-1EfMGQ .homeIcon-1FoKUJ {margin-bottom: 8px}
+
+.guildsAddInner-1KMFy- {position: relative; top: -10px; padding: 0 13px 0 13px; transition: top var(--Duration) var(--AnimationType);}
+.guildsAddInner-1KMFy-:hover {position: relative; top: -1px!important;}
+
+/*Using transitions*/
+.guild-1EfMGQ:hover ,
+.guild-1EfMGQ .guildInner-3DSoA4 a:hover,
+.guild-1EfMGQ .guildInner-3DSoA4:hover,
+.guild-1EfMGQ .guildIcon-CT-ZDq:hover,
+.guild-1EfMGQ.selected-ML3OIq .guildIcon-CT-ZDq, 
+.guild-1EfMGQ.selected-ML3OIq .guildInner-3DSoA4,
+.guild-1EfMGQ.selected-ML3OIq a,
+.guild-1EfMGQ.selected-ML3OIq,
+.guild-1EfMGQ.folder.open .guildIcon-CT-ZDq,
+.guild-1EfMGQ.folder.open .guildInner-3DSoA4,
+.guild-1EfMGQ.folder.open {
+	height: var(--Opened)!important;
+}
