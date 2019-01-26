@@ -1,5 +1,4 @@
 :root{
-	--Version: "v1.1.0";
     --background: url('https://wpblink.com/sites/default/files/wallpaper/anime/66761/sword-art-online-ii-wallpapers-hd-66761-327252.png');
 
     --transparency-1: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.55));
@@ -32,10 +31,7 @@
 .selected-ML3OIq .guildInner-3DSoA4 {background-color: rgba(100,100,100,0.3)!important}
 .guildsAdd-21_IdK {background-color: rgba(100,100,100,0.2)!important}
 
-/*Unread Messages*/
-.unreadMentionsBar-1VrBNe {background-color: red;}
-.selected-ML3OIq:before {background-color: rgb(100,100,100)!important; border-radius: 0!important;}
-.unread-qLkInr:before {background-color: rgb(150,0,0)!important; border-radius: 0!important;}
+.guild-1EfMGQ .badge-1GsMF2 {background-color: red!important}
 
 /*Channels*/
 .cursorPointer-1ajlYk {background-color: rgba(100,0,0,0.5); height: 30px; text-align: center; border-radius: 10px 10px 0 0px; padding: 5px;}
@@ -47,6 +43,8 @@
 	.contentSelectedText-3wUhMi {margin: 0; width: 100%; background-color: rgba(50,50,50,0.6)!important;}
 	.wrapper-2NJDcI {background-color: rgba(50,50,50,0.3)}
 
+	.iconSpacing-3JkGQO .wrapper-232cHJ {background-color: red}
+
 	/*Voice*/
 	.listDefault-36Sktb {padding: 2px; margin-bottom: 2px;}
 	.wrapperConnectedVoice-2mvQJY .content-20Aix8 {width: 100%; background-color: rgba(50,50,50,0.6)!important;}
@@ -54,7 +52,7 @@
 	.contentLockedVoice-1gx-SP:hover {background-color: rgba(50,50,50,0.3)!important}
 
 		/*VC Info*/
-		.container-1UB9sr {background-image: var(--transparency-2); background-color: transparent!important; border-color: rgb(90,90,90);}
+		.container-1UB9sr {background-color: rgba(0,0,0,0.55)!important; border: 0;}
 		.buttonDisconnect-3W_SJc {background-color: rgba(100,0,0,0.9)!important;}
 
 		/*VC User*/
@@ -64,7 +62,6 @@
 
 /*Messages*/
 .h1-1IDj26 {color: red!important;}
-.newMessagesBar-mujexs {background-color: red} 
 .hasMore-3e72_v button {background-color: rgba(50,50,50,0.5)!important; color: red;}
 .wrapperHover-1GktnT , .mention {background-color: rgba(150,0,0,0.2)!important; color: red!important;}
 .isMentionedCozy-3isp7y {background-color: rgba(150,0,0,0.3)!important;}
@@ -74,11 +71,27 @@ code , pre {background-color: rgba(50,50,50,0.3)!important}
 .messageGroupBlocked-3wrQQX {background-color: rgba(50,50,50,0.5)!important;}
 .messageGroupBlockedBtn-1PBBh- {background-color: transparent!important; color: red!important;}
 
+.noticeRegion-1YviSH {margin: auto;}
+.lookLink-9FtZy- , .anchor-3Z-8Bb , .bda-link {color: red!important;}
+.embedProviderLink-2Pq1Uw {color: rgb(150,150,150)!important;}
+
+.unreadMentionsBar-1VrBNe {background-color: red;}
+.selected-ML3OIq:before {background-color: rgb(100,100,100)!important; border-radius: 0!important;}
+.unread-qLkInr:before {background-color: rgb(150,0,0)!important; border-radius: 0!important;}
+
+.channelTextArea-1LDbYG .inner-zqa7da , .autocomplete-1vrmpx, .attachPopout-1n-ZKM {background-color: rgba(50,50,50,0.5)!important;}
+
+.newMessagesBar-mujexs {background-color: red} 
+.newMessagesBar-mujexs:hover {background-color: rgb(255,50,50)}
+.newMessagesBar-mujexs:active {background-color: rgb(255,100,100)}
+
+
 /*ScrollBars*/
 ::-webkit-scrollbar-thumb {background-color: rgba(150,0,0,0.6)!important; border-color: transparent!important;}
-.messagesWrapper-3lZDfY ::-webkit-scrollbar-track-piece {background-color: transparent!important; border-color: transparent!important;}
-.messagesWrapper-3lZDfY ::-webkit-scrollbar-track {background-color: rgba(150,0,0,0.4)!important; border-radius: 10px; border-color: rgba(150,0,0,0.4)!important}
+.messagesWrapper-3lZDfY ::-webkit-scrollbar-track-piece , .friendsTable-133bsv ::-webkit-scrollbar-track-piece , .gameLibrary-TTDw4Y ::-webkit-scrollbar-track-piece {background-color: transparent!important; border-color: transparent!important;}
+.messagesWrapper-3lZDfY ::-webkit-scrollbar-track , .friendsTable-133bsv ::-webkit-scrollbar-track , .gameLibrary-TTDw4Y ::-webkit-scrollbar-track {background-color: rgba(150,0,0,0.4)!important; border-radius: 10px; border-color: rgba(150,0,0,0.4)!important}
 
+.applicationStore-1pNvnv ::-webkit-scrollbar-track , .activityFeed-28jde9 ::-webkit-scrollbar-track {background-color: transparent!important;}
 
 /*Context Menu*/
 .menu-Sp6bN1 , .contextMenu-HLZMGh {background-color: rgba(10,10,10,0.6)!important}
@@ -138,6 +151,31 @@ polyline[stroke='#7289da']{stroke:red}
 .section-2YzZxo  {width: 660px; margin: auto}
 .sectionTier1-2w9cqh {width: 660px; margin: auto; margin-top: 15px}
 
+.content-1rPSz4 {padding-top: 20px!important;} 
+
+a[target="_blank"] {color: red;}
+
+.foreground-2aE44H {stroke: red;}
+.previewOverlay-2O7_KC , .formNotice-2_hHWR {background-color: rgba(50,50,50,0.5)!important}
+.media-engine-video {background: transparent!important;}
+.avatarUploaderInner-3UNxY3 {background-color:red!important;}
+
+	/*CustomCSS*/
+	.ace_editor {background-color: rgba(0,0,0,0.2)}
+	.ace_gutter , #bd-customcss-attach-controls {background-color: rgba(0,0,0,0.5)!important}
+
+	.ace_active-line {background-color: rgba(100,0,0,0.4) !important}
+	.ace_gutter-active-line {background-color: rgba(100,0,0,0.7)!important}
+
+	#bd-customcss-attach-controls {padding-left: 9px}
+	.checkbox-3kaeSU {padding-left: 1px}
+	#bd-customcss-detach-controls-button button {border: 0!important; border-radius: 10px!important; margin-right: 5px!important; transition: 0.1s background-color ease-in-out}
+	#bd-customcss-detach-controls-button button:hover {background-color: rgb(100,100,100)!important}
+	#bd-customcss-detach-controls-button button:active {background-color: red!important}
+
+	#bd-customcss-detach-container {background-color: rgba(0,0,0,0.7)}
+	#editor-detached button {background-color: red!important}
+
 /*ChangeLog And Other Popups*/
 .modal-3HD5ck , .bd-modal-inner , .messagesPopoutWrap-1MQ1bW , .messageGroupWrapper-o-Zw7G , .container-3ayLPN , .searchResultsWrap-2DKFzt , .quickswitcher-3JagVE , 
 .react-datepicker , .popoutList-T9CKZQ  {background-color: rgba(25,25,25,0.5)!important; border-radius: 10px!important;}
@@ -187,7 +225,7 @@ polyline[stroke='#7289da']{stroke:red}
 	.animator-US5i9g {border-radius: 10px; background-color: rgba(25,25,25,0.5)!important}
 	.action-1lSjCi {background-color: white!important;}
 
-	input#1:focus {border-color: #43b581!important;}
+	.animator-US5i9g input:focus {border-color: #43b581!important;}
 	.sampleLink-KPFu3I {color: #43b581!important;}
 
 	input[placeholder="Enter a server name"]:focus {border-color: rgb(114, 137, 218)!important;}
@@ -207,25 +245,22 @@ polyline[stroke='#7289da']{stroke:red}
 #bda-qem button:hover {background-color: rgba(100,100,100,0.5)!important;}
 #bda-qem button.active {background-color: rgba(150,150,150,0.5)!important;}
 
-/*Other*/
-.noticeRegion-1YviSH {margin: auto;}
-.notice-2FJMB4 {background-color:red!important;}
-.lookLink-9FtZy- , .anchor-3Z-8Bb , .bda-link {color: red!important;}
-a[target=_blank] {color: red;}
-.foreground-2aE44H {stroke: red;}
-.da-activityName {color: white!important;}
-.channelTextArea-1LDbYG .inner-zqa7da , .autocomplete-1vrmpx {background-color: rgba(50,50,50,0.5)!important;}
-.selected-1HYmZZ a {background-color: rgba(150,150,150,0.4)!important; margin-left: 15px}
-.previewOverlay-2O7_KC , .formNotice-2_hHWR {background-color: rgba(50,50,50,0.5)!important}
-.media-engine-video {background: transparent!important;}
-
-.channels-Ie2l6A .container-2Thooq {padding-bottom: 20px}
-.channels-Ie2l6A .container-2Thooq:after {
-	content: "GGO Kirito "var(--Version)" By VaporousCreeper"!important;
-	color: rgb(255,255,255,.3);
+/*TopBar*/
+.typeWindows-1za-n7 , .notice-2FJMB4 {background-color: rgba(0,0,0,0.7); border-bottom: 2px solid rgb(100,0,0); height: 30px}
+.typeWindows-1za-n7:after {
+	content: "GGO Kirito v1.0.0 By VaporousCreeper"!important;
+	color: rgb(255,255,255,0.6);
 	font-weight: 500;
+
 	position: absolute;
-	left: 73px;
-	bottom: 9px;
+	top: 8px;
+	width: 100%;
+	text-align: center;
 }
+.wordmark-2iDDfm {top: 3.3px;}
+.winButton-iRh8-Z {top: 1px;}
+
+/*Other*/
+.selected-1HYmZZ a {background-color: rgba(150,150,150,0.4)!important; margin-left: 15px}
+.activityName-1IaRLn {color: white!important;}
 
