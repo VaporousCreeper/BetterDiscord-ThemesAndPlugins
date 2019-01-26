@@ -1,3 +1,12 @@
+/*
+Theme Owned and Made by VaporousCreeper#9514
+  
+Background Img: https://wpblink.com/sites/default/files/wallpaper/anime/66761/sword-art-online-ii-wallpapers-hd-66761-327252.png 
+Transparency2 Module: https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Modules/transparency2.css - By Ruben7173#5048
+
+The 2 items above are not owned by me, They go to there respected owners
+*/
+
 :root{
     --background: url('https://wpblink.com/sites/default/files/wallpaper/anime/66761/sword-art-online-ii-wallpapers-hd-66761-327252.png');
 
@@ -231,19 +240,20 @@ a[target="_blank"] {color: red;}
 	input[placeholder="Enter a server name"]:focus {border-color: rgb(114, 137, 218)!important;}
 	a[href="//discordapp.com/guidelines"] {color: rgb(114, 137, 218)!important;}
 
-/*Emoji Menu*/
-.emojiPicker-3m1S-j , #bda-qem , #bda-qem-twitch-container , #bda-qem-favourite-container {background-color: rgba(0,0,0,0.5)!important; border: 0;}
-.header-1nkwgG {background-color: rgba(0,0,0,0.5)!important;}
-.searchBarInner-1_Tg2R {background-color: rgba(50,50,50,0.5)!important}
-.header-1nkwgG .searchBar-2_Yu-C {background-color: transparent!important;}
-.header-1nkwgG .searchBarInner-1_Tg2R input {color: white!important;}
-::-webkit-input-placeholder {color: rgba(255,255,255,0.5)!important;}
-.stickyHeader-1SS0JU {background-color: rgba(0,0,0,0.5)!important; border-radius: 0 0 10px 10px}
-.categories-1feg4n .selected-39BZ4S {border-color: red!important}
+	/*Emoji Menu*/
+	.emojiPicker-3m1S-j , #bda-qem , #bda-qem-twitch-container , #bda-qem-favourite-container {background-color: rgba(0,0,0,0.5)!important; border: 0;}
+	.header-1nkwgG {background-color: rgba(0,0,0,0.5)!important;}
+	.searchBarInner-1_Tg2R {background-color: rgba(50,50,50,0.5)!important}
+	.header-1nkwgG .searchBar-2_Yu-C {background-color: transparent!important;}
+	.header-1nkwgG .searchBarInner-1_Tg2R input {color: white!important;}
+	::-webkit-input-placeholder {color: rgba(255,255,255,0.5)!important;}
+	.stickyHeader-1SS0JU {background-color: rgba(0,0,0,0.5)!important; border-radius: 0 0 10px 10px}
+	.categories-1feg4n .selected-39BZ4S {border-color: red!important}
+	.emojiPicker-3m1S-j ::-webkit-scrollbar-track {background-color: transparent!important;}
 
-#bda-qem button {color: white; box-shadow: 0 0 0 0!important; border: 0!important;}
-#bda-qem button:hover {background-color: rgba(100,100,100,0.5)!important;}
-#bda-qem button.active {background-color: rgba(150,150,150,0.5)!important;}
+	#bda-qem button {color: white; box-shadow: 0 0 0 0!important; border: 0!important;}
+	#bda-qem button:hover {background-color: rgba(100,100,100,0.5)!important;}
+	#bda-qem button.active {background-color: rgba(150,150,150,0.5)!important;}
 
 /*TopBar*/
 .typeWindows-1za-n7 , .notice-2FJMB4 {background-color: rgba(0,0,0,0.7); border-bottom: 2px solid rgb(100,0,0); height: 30px}
