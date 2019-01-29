@@ -170,7 +170,7 @@ a[target="_blank"] {color: red;}
 .avatarUploaderInner-3UNxY3 {background-color:red!important;}
 
 	/*CustomCSS*/
-	.ace_editor {background-color: rgba(0,0,0,0.2)}
+	.ace_editor {background-color: rgba(0,0,0,0.2)!important}
 	.ace_gutter , #bd-customcss-attach-controls {background-color: rgba(0,0,0,0.5)!important}
 
 	.ace_active-line {background-color: rgba(100,0,0,0.4) !important}
