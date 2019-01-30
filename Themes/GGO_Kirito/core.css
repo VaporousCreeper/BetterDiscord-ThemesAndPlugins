@@ -290,7 +290,6 @@ a[target="_blank"] {color: red;}
 	background-image: var(--background); 
 	background-position: center; 
 	background-size: cover; 
-	background-color: rgba(0,0,0,0.55)!important;
 }
 
 /*Other*/
