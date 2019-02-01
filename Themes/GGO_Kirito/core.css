@@ -117,7 +117,7 @@ input[type=checkbox]:checked+span,.checkbox-1ix_J3{border-color:red!important;ba
 .membersGroup-v9BXpm {background-color: rgba(0,0,0,0.5); margin: 20px 8px 0 16px; padding: 0; height: 20px; text-align: center; border-radius: 10px; color: red!important;}
 .content-OzHfo4 , .channel-2QD9_O a {margin-left: 0px; border-radius: 50px 0 0 50px!important; transition: margin 0.2s; transition-timing-function: ease-in-out;}
 .content-OzHfo4:hover , .channel-2QD9_O a:hover {background-color: rgba(50,50,50,0.6)!important; margin-left: 15px}
-.popout-open {background-color: background-color: rgba(100,100,100,0.6)!important}
+.popout-open .content-OzHfo4 {background-color: rgba(100,100,100,0.6)!important}
 
 /*Inputs*/
 .lookFilled-1Gx00P, .valueChecked-m-4IJZ, .bd-pfbtn, .checked, .bda-settings-button , .addButton-pcyyf6 , .tabBar-1E2ExX .primary-3j8BhM , .da-selected[style*="rgb(114, 137, 218)"] {background-color: red!important;}
