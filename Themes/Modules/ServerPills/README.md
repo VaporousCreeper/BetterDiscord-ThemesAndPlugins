@@ -8,33 +8,33 @@ Then change the following settings that you want
 ### Settings
 | Setting Option | Definition | Default |
 | ----- | ----- | ----- |
-| Closed | Sets the height of the server/guild when it's not opened nor hovered | 25px |
-| Opened | Sets the height of the server/guild when it's opened or hovered | 50px |
-| BorderRadius | Sets the border-radius of the server/guild | 15px |
-| Duration | Sets the transition-duration of the server/guild when it's opened or closed | 200ms |
-| AnimationType | Sets the transition-timing-function of the server/guild when it's opened or closed <br/> More about transitions here: https://www.w3schools.com/css/css3_transitions.asp | ease-in-out |
+| SP_Closed | Sets the height of the server/guild when it's not opened nor hovered | 25px |
+| SP_Opened | Sets the height of the server/guild when it's opened or hovered | 50px |
+| SP_BorderRadius | Sets the border-radius of the server/guild | 15px |
+| SP_Duration | Sets the transition-duration of the server/guild when it's opened or closed | 200ms |
+| SP_AnimationType | Sets the transition-timing-function of the server/guild when it's opened or closed <br/> More about transitions here: https://www.w3schools.com/css/css3_transitions.asp | ease-in-out |
 
 ### Examples
 #### Default vars
 ```
 :root {
-   --Closed: 25px;
-   --Opened: 50px;
-   --BorderRadius: 15px; 
+   --SP_Closed: 25px;
+   --SP_Opened: 50px;
+   --SP_BorderRadius: 15px; 
 
-   --Duration: 200ms;
-   --AnimationType: ease-in-out;
+   --SP_Duration: 200ms;
+   --SP_AnimationType: ease-in-out;
 }
 ```
 #### Example One
 ```
 :root {
-   --Closed: 15px;
-   --Opened: 50px;
-   --BorderRadius: 0px; 
+   --SP_Closed: 15px;
+   --SP_Opened: 50px;
+   --SP_BorderRadius: 0px; 
 
-   --Duration: 100ms;
-   --AnimationType: ease-in;
+   --SP_Duration: 100ms;
+   --SP_AnimationType: ease-in;
 }
 ```
 
