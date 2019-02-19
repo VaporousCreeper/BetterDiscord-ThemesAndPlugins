@@ -22,7 +22,7 @@
 
 	#app-mount .guild-1EfMGQ .badge-1GsMF2,
 	#app-mount .bar-30k2ka {
-		background-color: var(--colour1);
+		background-color: var(--colour1)!important;
 	}
 
 /*Channels*/
