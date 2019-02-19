@@ -100,7 +100,7 @@
 	/*Sidebar*/
 		#app-mount .sidebarRegion-VFTUkN .itemSelected-1qLhcL,
 		#app-mount .sidebarRegion-VFTUkN .ui-tab-bar-item.selected {
-			background-color: var(--colour1-active);
+			background-color: var(--colour1-active)!important;
 		}
 		#app-mount .sidebarRegion-VFTUkN .itemSelected-1qLhcL[style*="rgb(114, 137, 218)"]{
 			background-color: rgba(114, 137, 218,0.5)!important;
