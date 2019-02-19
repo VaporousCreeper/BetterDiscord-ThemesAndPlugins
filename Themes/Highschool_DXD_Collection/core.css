@@ -473,6 +473,30 @@
 
 		#app-mount input[placeholder="Enter a server name"]:focus {border-color: rgb(114, 137, 218); background-color: transparent;}
 		#app-mount a[href="//discordapp.com/guidelines"] {color: rgb(114, 137, 218);}
+		
+		
+		
+		#app-mount .uploadModal-2ifh8j {
+			background-color: var(--colour2); 
+			border: 1px solid var(--colour2-border);
+		}
+
+		#app-mount .footer-3mqk7D {
+			background-color: var(--colour2); 
+		}
+
+		#app-mount .lookInverted-2D7oAl[type="submit"] {background-color: var(--colour1); color: var(--colour3);}
+
+		#app-mount .uploadModal-2ifh8j .checked-3_4uQ9 polyline {stroke: var(--colour2-border);}
+
+		#app-mount .uploadModal-2ifh8j .checked-3_4uQ9, 
+		#app-mount .inner-3nWsbo {
+			border-color: transparent!important;
+		}
+
+		#app-mount .icon-kyxXVr {border-color: var(--colour2-border);}
+
+		#app-mount .inner-zqa7da {background-color: var(--colour2)}
 
 	/*Centext Menu*/
 		#app-mount .contextMenu-HLZMGh,
