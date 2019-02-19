@@ -1,0 +1,17 @@
+//META{"name":"Xenovia Quarta","description":"A Theme with Xenovia Quarta from Highschool DxD","author":"VaporousCreeper","version":"Auto"}*//
+@import url(https://vaporouscreeper.github.io/BetterDiscord-ThemesAndPlugins/Themes/Highschool_DXD_Collection/core.css);
+
+:root{
+	--background: url('https://raw.githubusercontent.com/VaporousCreeper/BetterDiscord-ThemesAndPlugins/master/Themes/Highschool_DXD_Collection/Backgrounds/xenovia_quarta___high_school_dxd___by_rosalyneres_dajlz1o-pre.jpg');
+
+	--colour1: blue;
+	--colour1-active: rgba(0,0,255,0.2);
+
+	--colour1-disabled: rgba(0,0,155,0.2);
+	--colour1-disabled-border: rgb(0,0,155);
+
+	--colour2: rgba(40,40,40,0.4);
+	--colour2-border: rgb(40,40,40);
+
+	--colour3: white;
+}

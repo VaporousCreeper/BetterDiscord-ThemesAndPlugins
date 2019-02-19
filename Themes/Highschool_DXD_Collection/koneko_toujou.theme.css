@@ -1,0 +1,17 @@
+//META{"name":"Koneko Toujou","description":"A Theme with Koneko Toujou from Highschool DxD","author":"VaporousCreeper","version":"Auto"}*//
+@import url(https://vaporouscreeper.github.io/BetterDiscord-ThemesAndPlugins/Themes/Highschool_DXD_Collection/core.css);
+
+:root{
+	--background: url('https://raw.githubusercontent.com/VaporousCreeper/BetterDiscord-ThemesAndPlugins/master/Themes/Highschool_DXD_Collection/Backgrounds/7H5FYv.png.jpg');
+
+	--colour1: rgb(220,220,220);
+	--colour1-active: rgba(155,155,155,0.2);
+
+	--colour1-disabled: rgba(100,100,100,0.2);
+	--colour1-disabled-border: rgb(100,100,100);
+
+	--colour2: rgba(40,40,40,0.4);
+	--colour2-border: rgb(40,40,40);
+
+	--colour3: white;
+}

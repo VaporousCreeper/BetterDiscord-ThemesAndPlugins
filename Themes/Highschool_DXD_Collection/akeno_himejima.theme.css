@@ -1,0 +1,17 @@
+//META{"name":"Akeno Himejima","description":"A Theme with Akeno Himejima from Highschool DxD","author":"VaporousCreeper","version":"Auto"}*//
+@import url(https://vaporouscreeper.github.io/BetterDiscord-ThemesAndPlugins/Themes/Highschool_DXD_Collection/core.css);
+
+:root{
+	--background: url('https://raw.githubusercontent.com/VaporousCreeper/BetterDiscord-ThemesAndPlugins/master/Themes/Highschool_DXD_Collection/Backgrounds/wpid-akeno_himejima__high_school_dxd__minimalism_by_greenmapple17-d8vwpd8.png');
+
+	--colour1: rgb(61,58,76);
+	--colour1-active: rgba(61,58,76,0.2);
+
+	--colour1-disabled: rgba(61,58,76,0.2);
+	--colour1-disabled-border: rgb(61,58,76);
+
+	--colour2: rgba(40,40,40,0.4);
+	--colour2-border: rgb(40,40,40);
+
+	--colour3: white;
+}
