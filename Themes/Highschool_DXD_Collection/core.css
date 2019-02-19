@@ -221,7 +221,7 @@
 
 	#app-mount .chat-3bRxxu .reactionMe-23mbRf,
 	#app-mount .chat-3bRxxu .reactionMe-23mbRf .reactionCount-2ddRoS {
-		background-color: rgba(150,0,0,0.2); 
+		background-color: var(--colour1-disabled); 
 		color: var(--colour1);
 	}
 
