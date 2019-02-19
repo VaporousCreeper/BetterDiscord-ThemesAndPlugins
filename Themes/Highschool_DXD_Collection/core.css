@@ -219,11 +219,12 @@
 	#app-mount .chat-3bRxxu .wrapperHover-1GktnT,
 	#app-mount .chat-3bRxxu .mention,
 
-	#app-mount .chat-3bRxxu .reactionMe-23mbRf,
-	#app-mount .chat-3bRxxu .reactionMe-23mbRf .reactionCount-2ddRoS {
+	#app-mount .chat-3bRxxu .reactionMe-23mbRf {
 		background-color: var(--colour1-disabled); 
 		color: var(--colour1);
 	}
+
+	#app-mount .chat-3bRxxu .reactionMe-23mbRf .reactionCount-2ddRoS {color: var(--colour1);}
 
 	#app-mount .chat-3bRxxu .userSelectNone-Iy6XEP,
 	#app-mount .chat-3bRxxu .markup-2BOw-j pre,
