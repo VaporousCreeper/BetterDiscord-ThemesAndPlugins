@@ -285,6 +285,13 @@
 		background-color: var(--colour1)!important;
 	}
 
+	#app-mount .hasMore-3e72_v button {
+		background-color: var(--colour2); 
+		border: 1px solid var(--colour2-border);
+
+		color: var(--colour1);
+	}
+
 
 /*Search and Pinned*/
 	/*Search*/
