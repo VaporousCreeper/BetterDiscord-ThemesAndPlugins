@@ -233,7 +233,7 @@
 	}
 
 	#app-mount .chat-3bRxxu .isMentionedCozy-3isp7y { background-color: var(--colour1-active); }
-	#app-mount .chat-3bRxxu .isMentionedCozy-3isp7y:after { background: red; border-left: 4px solid var(--colour1); }
+	#app-mount .chat-3bRxxu .isMentionedCozy-3isp7y:after { background: var(--colour1); border-left: 4px solid var(--colour1); }
 
 	#app-mount .chat-3bRxxu .newMessagesBar-mujexs { background-color: var(--colour1) } 
 	#app-mount .chat-3bRxxu .newMessagesBar-mujexs:hover { background-color: var(--colour1-active) }
