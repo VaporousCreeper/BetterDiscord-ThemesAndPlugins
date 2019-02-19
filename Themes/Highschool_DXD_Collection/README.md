@@ -6,7 +6,10 @@ The Transparency2 and all of the background imgs items are not owned by me, They
 
 
 ## Previews
-![Preview1](https://raw.githubusercontent.com/VaporousCreeper/BetterDiscord/master/Themes/GGO_Kirito/GGO_Kirito_Preview1.png)
-![Preview2](https://raw.githubusercontent.com/VaporousCreeper/BetterDiscord/master/Themes/GGO_Kirito/GGO_Kirito_Preview2.png)
-![Preview3](https://raw.githubusercontent.com/VaporousCreeper/BetterDiscord/master/Themes/GGO_Kirito/GGO_Kirito_Preview3.png) 
-![Preview4](https://raw.githubusercontent.com/VaporousCreeper/BetterDiscord/master/Themes/GGO_Kirito/GGO_Kirito_Preview4.png)
+![Preview](https://raw.githubusercontent.com/VaporousCreeper/BetterDiscord-ThemesAndPlugins/master/Themes/Highschool_DXD_Collection/Previews/akeno_preview.PNG)
+![Preview](https://raw.githubusercontent.com/VaporousCreeper/BetterDiscord-ThemesAndPlugins/master/Themes/Highschool_DXD_Collection/Previews/asia_preview.PNG)
+![Preview](https://raw.githubusercontent.com/VaporousCreeper/BetterDiscord-ThemesAndPlugins/master/Themes/Highschool_DXD_Collection/Previews/issei_preview.PNG)
+![Preview](https://raw.githubusercontent.com/VaporousCreeper/BetterDiscord-ThemesAndPlugins/master/Themes/Highschool_DXD_Collection/Previews/koneko_preview.PNG)
+![Preview](https://raw.githubusercontent.com/VaporousCreeper/BetterDiscord-ThemesAndPlugins/master/Themes/Highschool_DXD_Collection/Previews/rias_preview.PNG)
+![Preview](https://raw.githubusercontent.com/VaporousCreeper/BetterDiscord-ThemesAndPlugins/master/Themes/Highschool_DXD_Collection/Previews/xenovia_preview.PNG)
+![Preview](https://raw.githubusercontent.com/VaporousCreeper/BetterDiscord-ThemesAndPlugins/master/Themes/Highschool_DXD_Collection/Previews/yuuto_preview.PNG)
