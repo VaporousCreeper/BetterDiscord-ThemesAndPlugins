@@ -291,7 +291,16 @@
 
 		color: var(--colour1);
 	}
+	
+	#app-mount .video-1FfuMD,
+	#app-mount .videoHeight-Qp_9vC {
+		background-color: transparent;
+	}
 
+	#app-mount .center-1Vp33r {
+		background-color: var(--colour2);
+		border: 1px solid var(--colour2-border)
+	}
 
 /*Search and Pinned*/
 	/*Search*/
