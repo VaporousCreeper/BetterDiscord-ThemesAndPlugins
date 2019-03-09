@@ -36,11 +36,11 @@ The 2 items above are not owned by me, They go to there respected owners
 .iconsWrapper-1RelE3 {background-color: rgba(25,25,25,0.5)!important; border-color: transparent!important;}
 
 /*Servers*/
-.guildInner-3DSoA4 {background-color: rgba(100,100,100,0.2)!important}
-.selected-ML3OIq .guildInner-3DSoA4 {background-color: rgba(100,100,100,0.3)!important}
-.guildsAdd-21_IdK {background-color: rgba(100,100,100,0.2)!important}
+.wrapper-2lTRaf {background-color: rgba(100,100,100,0.2)!important}
+.selected-nT-gM3 .wrapper-2lTRaf {background-color: rgba(100,100,100,0.3)!important}
+.circleIconButton-jET_ig {background-color: rgba(100,100,100,0.2)!important}
 
-.guild-1EfMGQ .badge-1GsMF2 {background-color: red!important}
+.container-2td-dC .badge-3dItlm {background-color: red!important}
 
 /*Channels*/
 .cursorPointer-1ajlYk {background-color: rgba(100,0,0,0.5); height: 30px; text-align: center; border-radius: 10px 10px 0 0px; padding: 5px;}
@@ -117,7 +117,7 @@ input[type=checkbox]:checked+span,.checkbox-1ix_J3{border-color:red!important;ba
 .membersGroup-v9BXpm {background-color: rgba(0,0,0,0.5); margin: 20px 8px 0 16px; padding: 0; height: 20px; text-align: center; border-radius: 10px; color: red!important;}
 .content-OzHfo4 , .channel-2QD9_O a {margin-left: 0px; border-radius: 50px 0 0 50px!important; transition: margin 0.2s; transition-timing-function: ease-in-out;}
 .content-OzHfo4:hover , .channel-2QD9_O a:hover {background-color: rgba(50,50,50,0.6)!important; margin-left: 15px}
-.popout-open .content-OzHfo4 {background-color: rgba(100,100,100,0.6)!important}
+.popout-open .content-OzHfo4 {background-color: rgba(100,100,100,0.6)!important; margin-left: 15px}
 
 /*Inputs*/
 .lookFilled-1Gx00P, .valueChecked-m-4IJZ, .bd-pfbtn, .checked, .bda-settings-button , .addButton-pcyyf6 , .tabBar-1E2ExX .primary-3j8BhM , .da-selected[style*="rgb(114, 137, 218)"] {background-color: red!important;}
@@ -264,7 +264,7 @@ a[target="_blank"] {color: red;}
 /*TopBar*/
 .typeWindows-1za-n7 , .notice-2FJMB4 {background-color: rgba(0,0,0,0.7); border-bottom: 2px solid rgb(100,0,0); height: 30px}
 .typeWindows-1za-n7:after {
-	content: "GGO Kirito v1.0.4 By VaporousCreeper";
+	content: "GGO Kirito v1.0.5 By VaporousCreeper";
 	color: rgb(255,255,255,0.6);
 	font-weight: 500;
 
