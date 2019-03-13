@@ -14,15 +14,15 @@
 }
 
 /*Guilds*/
-	#app-mount .selected-ML3OIq .guildInner-3DSoA4 {background-color: var(--colour2-border)!important;}
-	#app-mount .guildInner-3DSoA4,
-	#app-mount .guildsAdd-21_IdK {
+	#app-mount .selected-nT-gM3 .wrapper-2lTRaf {background-color: var(--colour2-border)!important;}
+	#app-mount .wrapper-2lTRaf,
+	#app-mount .circleIconButton-jET_ig {
 		background-color: var(--colour2)!important;
 	}
 
-	#app-mount .guild-1EfMGQ .badge-1GsMF2,
+	#app-mount .container-2td-dC .badge-3dItlm,
 	#app-mount .bar-30k2ka {
-		background-color: var(--colour1)!important;
+		background-color: var(--colour1);
 	}
 
 /*Channels*/
@@ -295,7 +295,7 @@
 
 		color: var(--colour1);
 	}
-	
+
 	#app-mount .video-1FfuMD,
 	#app-mount .videoHeight-Qp_9vC {
 		background-color: transparent;
@@ -305,6 +305,7 @@
 		background-color: var(--colour2);
 		border: 1px solid var(--colour2-border)
 	}
+
 
 /*Search and Pinned*/
 	/*Search*/
@@ -402,9 +403,14 @@
 	}
 
 	#app-mount .itemDefault-3Jdr52.primary-3j8BhM,
-	#app-mount .itemSelected-1qLhcL {
+	#app-mount .topPill-30KHOu .itemSelected-1qLhcL {
 		background-color: var(--colour1)!important;
 		color: var(--colour3);
+	}
+
+	#app-mount .notice-2FJMB4 {
+		background-color: transparent;
+		background-image: var(--transparency-1);
 	}
 
 	/*ScrollBars*/
@@ -434,7 +440,7 @@
 		}
 
 		#app-mount .quickswitcher-3JagVE,
-		#app-mount .input-2VB9rf{
+		#app-mount .input-2VB9rf {
 			background-color: var(--colour2);
 			border: 1px solid var(--colour2-border);
 		}
@@ -443,8 +449,13 @@
 		#app-mount .topSectionNormal-2-vo2m,
 		#app-mount .body-3iLsc4,
 		#app-mount .footer-1fjuF6, 
-		#app-mount .quickMessage-2XpSaN {
+		#app-mount .quickMessage-2XpSaN,
+		#app-mount .body-3ND3kc {
 			background-color: var(--colour2)!important
+		}
+
+		#app-mount .root-SR8cQa {
+			border: 1px solid var(--colour2-border);
 		}
 
 		#app-mount .headerPlaying-j0WQBV , #app-mount .topSectionPlaying-1J5E4n {background-color: rgba(114,137,218,0.5);}
@@ -486,9 +497,8 @@
 
 		#app-mount input[placeholder="Enter a server name"]:focus {border-color: rgb(114, 137, 218); background-color: transparent;}
 		#app-mount a[href="//discordapp.com/guidelines"] {color: rgb(114, 137, 218);}
-		
-		
-		
+
+
 		#app-mount .uploadModal-2ifh8j {
 			background-color: var(--colour2); 
 			border: 1px solid var(--colour2-border);
@@ -530,14 +540,15 @@
 			border-color: var(--colour1);
 			background-color: var(--colour1);
 		}
-    
-    /*Watermark*/
-      #app-mount .typeWindows-1za-n7:after {
-        content: "Highschool DXD v1.0 By VaporousCreeper";
-        color: rgb(255,255,255,0.6);
-        font-weight: 500;
 
-        position: absolute;
-        top: 5px;
-        left: 41%;
-      }
+	/*Watermark*/
+		#app-mount .typeWindows-1za-n7:after {
+			content: "Highschool DXD v1.1 By VaporousCreeper";
+			color: rgb(255,255,255,0.6);
+			font-weight: 500;
+
+			position: absolute;
+			top: 5px;
+			left: 42.5%;
+		}
+
