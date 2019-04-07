@@ -391,13 +391,20 @@
 		color: var(--colour1);
 	}
 
-	#app-mount .root-1BQpZw {background-image: var(--transparency-1); background-color: transparent;}
+	#app-mount .root-1BQpZw,
+	#app-mount .activityFeed-1C0EmJ {background-image: var(--transparency-1); background-color: transparent;}
 	#app-mount .stickyHeader-1pqx0j {background-color: transparent;}
 
 	#app-mount .dockItem-2kQDqg {border: 1px solid transparent;}
 
 	#app-mount .card-7JP0BX,
-	#app-mount .dockItem-2kQDqg:hover {
+	#app-mount .dockItem-2kQDqg:hover,
+
+	#app-mount .column-E5Tpw7 .card-GqTca8,
+	#app-mount .grid-1rkoVH .container-35JN_A,
+
+	#app-mount aside .card-GqTca8.wrapper-2ULRsd,
+	#app-mount aside .card-GqTca8.recentlyPlayedContainer-2F3MqS {
 		background-color: var(--colour2);
 		border: 1px solid var(--colour2-border);
 	}
@@ -543,7 +550,7 @@
 
 	/*Watermark*/
 		#app-mount .typeWindows-1za-n7:after {
-			content: "Highschool DXD v1.1 By VaporousCreeper";
+			content: "Highschool DXD v1.2 By VaporousCreeper";
 			color: rgb(255,255,255,0.6);
 			font-weight: 500;
 
