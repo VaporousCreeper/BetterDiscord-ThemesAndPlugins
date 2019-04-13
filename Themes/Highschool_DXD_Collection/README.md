@@ -4,6 +4,8 @@ Transparency2 Module: https://raw.githack.com/Ruben7173/Ruben7173.github.io/mast
 
 The Transparency2 and all of the background imgs items are not owned by me, They go to there respected owners
 
+**Note:** This collection will no longer being updated. 
+
 
 ## Previews
 ![Preview](https://raw.githubusercontent.com/VaporousCreeper/BetterDiscord-ThemesAndPlugins/master/Themes/Highschool_DXD_Collection/Previews/akeno_preview.PNG)
