@@ -25,7 +25,8 @@ The 2 items above are not owned by me, They go to there respected owners
 .tabBar-1E2ExX .primarySelected-3uHKZn {color: red!important;}
 .topPill-30KHOu .selected-3s45Ha {background-color: red!important; color: white!important;}
 
-.root-1BQpZw , .container-3gCOGc {background-image: var(--transparency-1)!important; background-color: transparent!important;}
+.root-1BQpZw {background-image: var(--transparency-1)!important; background-color: transparent!important;}
+.container-1r6BKw {background: transparent!important;}
 
 .friendsActionRemove-qu8nnl {background-color: red!important;}
 .friendsActionVoiceCall-3EdPsR {background-color: rgb(114,137,218)!important;}
@@ -35,39 +36,58 @@ The 2 items above are not owned by me, They go to there respected owners
 .minimum-1pRSEN {background-color: rgba(0,0,0,0.2)!important;}
 .iconsWrapper-1RelE3 {background-color: rgba(25,25,25,0.5)!important; border-color: transparent!important;}
 
-/*Servers*/
-.wrapper-2lTRaf {background-color: rgba(100,100,100,0.2)!important}
-.selected-nT-gM3 .wrapper-2lTRaf {background-color: rgba(100,100,100,0.3)!important}
-.circleIconButton-jET_ig {background-color: rgba(100,100,100,0.2)!important}
 
-.container-2td-dC .badge-3dItlm {background-color: red!important}
+.activityFeed-1C0EmJ {background-image: var(--transparency-1)!important; background-color: transparent!important;}
+.container-35JN_A , .wrapper-3UweLa , .recentlyPlayedContainer-2F3MqS , .outer-2IVh5n { background-color: rgba(100,100,100,0.3)!important}
+
+/*Servers*/
+.theme-dark .acronym-2mOFsV {background-color: rgba(100,100,100,0.2);}
+.wrapper-1BJsBx {background-color: transparent!important}
+
+.theme-dark .acronym-2mOFsV:hover {background-color: rgba(100,0,0,0.3)!important;}
+
+.folder .wrapper-1BJsBx {background-color: rgba(100,100,100,0.2)!important; transition: background-color .15s ease-out;}
+.folder .wrapper-1BJsBx:hover {background-color: rgba(100,0,0,0.3)!important;}
+
+.theme-dark .acronym-2mOFsV.selected-bZ3Lue {background-color: rgba(100,100,100,0.3)!important}
+.wrapper-1BJsBx.selected-wSa2KV {background-color: rgba(100,100,100,0.3)!important}
+
+.numberBadge-2s8kKX {background-color: red!important}
+
+.pill-31IEus .item-2hkk8m {background-color: rgba(100,100,100,0.7)}
+
+.circleIconButton-jET_ig {background-color: rgba(100,100,100,0.3)!important; color: white;}
+.circleIconButton-jET_ig:hover {background-color: rgba(100,0,0,0.3)!important;}
 
 /*Channels*/
-.cursorPointer-1ajlYk {background-color: rgba(100,0,0,0.5); height: 30px; text-align: center; border-radius: 10px 10px 0 0px; padding: 5px;}
-.iconTransition-2pOJ7l {padding: 5px;}
+.containerDefault-3GGEv_ {background-color: rgba(100,0,0,0.5); height: 30px; text-align: center; border-radius: 10px; padding: 5px 5px 0 5px;}
+
+.channels-Ie2l6A div[class*="container-"] { padding-bottom: 14px; }
 
 	/*Text*/
-	.content-20Aix8 {margin: 0; width: 200px; transition: width 0.2s; transition-timing-function: ease-in-out; background-color: rgba(50,50,50,0.15)}
-	.content-20Aix8:hover {width: 100%; background-color: rgba(50,50,50,0.3)}
-	.contentSelectedText-3wUhMi {margin: 0; width: 100%; background-color: rgba(50,50,50,0.6)!important;}
+	.content-3at_AU {margin: 0; width: 200px; transition: width 0.2s; transition-timing-function: ease-in-out; background-color: rgba(50,50,50,0.15)}
+	.content-3at_AU:hover {width: 100%; background-color: rgba(50,50,50,0.3)!important}
+	.selected-37j_iU .content-3at_AU {margin: 0; width: 100%; background-color: rgba(50,50,50,0.6)!important;}
 	.wrapper-2NJDcI {background-color: rgba(50,50,50,0.3)}
 
-	.iconSpacing-3JkGQO .wrapper-232cHJ {background-color: red}
-
 	/*Voice*/
-	.listDefault-36Sktb {padding: 2px; margin-bottom: 2px;}
-	.wrapperConnectedVoice-2mvQJY .content-20Aix8 {width: 100%; background-color: rgba(50,50,50,0.6)!important;}
-	.contentLockedVoice-1gx-SP , .contentMutedText-2y6aPQ {background-color: rgba(100,0,0,0.2)!important;}
-	.contentLockedVoice-1gx-SP:hover {background-color: rgba(50,50,50,0.3)!important}
+	.containerDefault-1ZnADq .modeConnected-2IEL4z div.content-3at_AU {width: 100%; background-color: rgba(50,50,50,0.6)!important;}
+	.containerDefault-1ZnADq .modeLocked-SZJhTy div.content-3at_AU,
+	.containerDefault-1ZnADq .modeMuted-3osy7j div.content-3at_AU {background-color: rgba(100,0,0,0.2)!important;}
+
+	.list-2bwCXU { padding-left: 10px; }
 
 		/*VC Info*/
 		.container-1UB9sr {background-color: rgba(0,0,0,0.55)!important; border: 0;}
 		.buttonDisconnect-3W_SJc {background-color: rgba(100,0,0,0.9)!important;}
 
 		/*VC User*/
-		.avatarSpeaking-1wJCNq {box-shadow:0 0 0 2px red; }
-		.voiceUser-vT8g1p {transition: margin 0.2s; transition-timing-function: ease-in-out; margin-left: 0; padding-right: 5px}
-		.voiceUser-vT8g1p:hover {background-color: rgba(50,50,50,0.3)!important; border-radius: 2px; margin-left: 20px;}
+		.avatarSpeaking-3MqCHLt {box-shadow:0 0 0 2px red; }
+
+		.voiceUser-14U_Ns {transition: margin 0.2s; transition-timing-function: ease-in-out; margin-left: 0; padding-right: 5px}
+		.voiceUser-14U_Ns:hover {background-color: rgba(50,50,50,0.3)!important; border-radius: 2px; margin-left: 20px;}
+
+		.voiceUser-14U_Ns .content-3xS9Lh:hover {background-color: transparent!important;}
 
 /*Messages*/
 .h1-1IDj26 {color: red!important;}
@@ -142,8 +162,8 @@ polyline[stroke='#7289da']{stroke:red}
 
 /*Settings*/
 .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ, .ui-tab-bar-item {line-height:15px!important; background-color: rgba(150,150,150,0.07); width: 100%; transition: width 0.2s; transition-timing-function: ease-in-out;}
-.sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ:hover, .ui-tab-bar-item:hover {background-color: rgba(150,150,150,0.2); width:187px;}
-.sidebar-CFHs9e .side-8zPYf6 .itemSelected-1qLhcL, .ui-tab-bar-item.selected {line-height:15px!important; background-color: rgba(150,150,150,0.4)!important; width:187px;}
+.sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ:hover, .ui-tab-bar-item:hover {background-color: rgba(150,150,150,0.2)!important; width:187px;}
+.sidebar-CFHs9e .side-8zPYf6 .selected-3s45Ha, .ui-tab-bar-item.selected {line-height:15px!important; background-color: rgba(150,150,150,0.4)!important; width:187px;}
 .sidebar-CFHs9e .side-8zPYf6 .header-2RyJ0Y, .ui-tab-bar-header {background-color: rgba(150,0,0,0.5); border-radius: 3px; line-height:28px!important; padding:0 0 0 10px!important}
 .ui-tab-bar-item {margin-bottom: 2px!important}
 
@@ -264,7 +284,7 @@ a[target="_blank"] {color: red;}
 /*TopBar*/
 .typeWindows-1za-n7 , .notice-2FJMB4 {background-color: rgba(0,0,0,0.7); border-bottom: 2px solid rgb(100,0,0); height: 30px}
 .typeWindows-1za-n7:after {
-	content: "GGO Kirito v1.0.5 By VaporousCreeper";
+	content: "GGO Kirito v1.1.0 By VaporousCreeper";
 	color: rgb(255,255,255,0.6);
 	font-weight: 500;
 
