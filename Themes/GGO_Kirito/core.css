@@ -62,7 +62,8 @@ The 2 items above are not owned by me, They go to there respected owners
 /*Channels*/
 .containerDefault-3GGEv_ {background-color: rgba(100,0,0,0.5); height: 30px; text-align: center; border-radius: 10px; padding: 5px 5px 0 5px;}
 
-.channels-Ie2l6A div[class*="container-"] { padding-bottom: 14px; }
+.channels-Ie2l6A div[class*="container-"] { padding-bottom: 14px;}
+.container-3baos1 , .container-1giJp5 {background-image: var(--transparency-1)!important; background-color: rgba(0,0,0,0)!important; margin-bottom: 0;}
 
 	/*Text*/
 	.content-3at_AU {margin: 0; width: 200px; transition: width 0.2s; transition-timing-function: ease-in-out; background-color: rgba(50,50,50,0.15)}
@@ -206,9 +207,9 @@ a[target="_blank"] {color: red;}
 	#editor-detached button {background-color: red!important}
 
 /*ChangeLog And Other Popups*/
-.modal-3HD5ck , .bd-modal-inner , .messagesPopoutWrap-1MQ1bW , .messageGroupWrapper-o-Zw7G , .container-3ayLPN , .searchResultsWrap-2DKFzt , .quickswitcher-3JagVE , 
+.modal-yWgWj- , .bd-modal-inner , .messagesPopoutWrap-1MQ1bW , .messageGroupWrapper-o-Zw7G , .container-3ayLPN , .searchResultsWrap-2DKFzt , .quickswitcher-3JagVE , 
 .react-datepicker , .popoutList-T9CKZQ , .bd-modal-body {background-color: rgba(25,25,25,0.5)!important; border-radius: 10px!important;}
-.footer-2yfCgX , .footer-3mqk7D  {background-color: rgba(0,0,0,0.5)!important; border-radius: 0 0 10px 10px;}
+.footer-3rDWdC , .footer-3mqk7D  {background-color: rgba(0,0,0,0.5)!important; border-radius: 0 0 10px 10px;}
 .header-1R_AjF , .react-datepicker__header {background-color: transparent!important;}
 
 .input-2VB9rf {background-color: rgba(50,50,50,0.5)!important}
@@ -284,7 +285,7 @@ a[target="_blank"] {color: red;}
 /*TopBar*/
 .typeWindows-1za-n7 , .notice-2FJMB4 {background-color: rgba(0,0,0,0.7); border-bottom: 2px solid rgb(100,0,0); height: 30px}
 .typeWindows-1za-n7:after {
-	content: "GGO Kirito v1.1.1 By VaporousCreeper";
+	content: "GGO Kirito v1.1.2 By VaporousCreeper";
 	color: rgb(255,255,255,0.6);
 	font-weight: 500;
 
