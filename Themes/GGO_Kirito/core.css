@@ -36,6 +36,10 @@ The 2 items above are not owned by me, They go to there respected owners
 .minimum-1pRSEN {background-color: rgba(0,0,0,0.2)!important;}
 .iconsWrapper-1RelE3 {background-color: rgba(25,25,25,0.5)!important; border-color: transparent!important;}
 
+.body-1BpgWG {background-color: transparent!important;}
+.body-1BpgWG .section-2VKIPC {background-color: rgba(100,100,100,0.3)!important}
+
+.popoutContainer-3WC9HR:hover , .popoutContainer-3WC9HR .popout-3G62UL {background-color: rgba(20,20,20,0.7)!important}
 
 .activityFeed-1C0EmJ {background-image: var(--transparency-1)!important; background-color: transparent!important;}
 .container-35JN_A , .wrapper-3UweLa , .recentlyPlayedContainer-2F3MqS , .outer-2IVh5n { background-color: rgba(100,100,100,0.3)!important}
@@ -49,12 +53,18 @@ The 2 items above are not owned by me, They go to there respected owners
 .folder .wrapper-1BJsBx {background-color: rgba(100,100,100,0.2)!important; transition: background-color .15s ease-out;}
 .folder .wrapper-1BJsBx:hover {background-color: rgba(100,0,0,0.3)!important;}
 
+.expandedFolderBackground-2sPsd- {background-color: rgba(100,100,100,0.2)!important;}
+.expandedFolderBackground-2sPsd-.collapsed-1GMuSb {background-color: transparent!important; transition: background-color .15s ease-out;}
+.folder-21wGz3 {background-color: transparent!important;}
+
 .theme-dark .acronym-2mOFsV.selected-bZ3Lue {background-color: rgba(100,100,100,0.3)!important}
 .wrapper-1BJsBx.selected-wSa2KV {background-color: rgba(100,100,100,0.3)!important}
 
 .numberBadge-2s8kKX {background-color: red!important}
 
 .pill-31IEus .item-2hkk8m {background-color: rgba(100,100,100,0.7)}
+
+ #bd-pub-li .wrapper-25eVIn {background-color: rgba(100,100,100,0.3)}
 
 .circleIconButton-jET_ig {background-color: rgba(100,100,100,0.3)!important; color: white;}
 .circleIconButton-jET_ig:hover {background-color: rgba(100,0,0,0.3)!important;}
@@ -136,9 +146,9 @@ input[type=checkbox]:checked+span,.checkbox-1ix_J3{border-color:red!important;ba
 
 /*Server Members*/
 .membersGroup-v9BXpm {background-color: rgba(0,0,0,0.5); margin: 20px 8px 0 16px; padding: 0; height: 20px; text-align: center; border-radius: 10px; color: red!important;}
-.content-OzHfo4 , .channel-2QD9_O a {margin-left: 0px; border-radius: 50px 0 0 50px!important; transition: margin 0.2s; transition-timing-function: ease-in-out;}
-.content-OzHfo4:hover , .channel-2QD9_O a:hover {background-color: rgba(50,50,50,0.6)!important; margin-left: 15px}
-.popout-open .content-OzHfo4 {background-color: rgba(100,100,100,0.6)!important; margin-left: 15px}
+.member-3W1lQa , .channel-2QD9_O a {margin-left: 0px; border-radius: 50px 0 0 50px!important; transition: margin 0.2s; transition-timing-function: ease-in-out;}
+.member-3W1lQa:hover , .channel-2QD9_O a:hover {background-color: rgba(50,50,50,0.6)!important; margin-left: 15px}
+.popout-open.member-3W1lQa {background-color: rgba(100,100,100,0.6)!important; margin-left: 15px}
 
 /*Inputs*/
 .lookFilled-1Gx00P, .valueChecked-m-4IJZ, .bd-pfbtn, .checked, .bda-settings-button , .addButton-pcyyf6 , .tabBar-1E2ExX .primary-3j8BhM , .da-selected[style*="rgb(114, 137, 218)"] {background-color: red!important;}
@@ -208,7 +218,7 @@ a[target="_blank"] {color: red;}
 
 /*ChangeLog And Other Popups*/
 .modal-yWgWj- , .bd-modal-inner , .messagesPopoutWrap-1MQ1bW , .messageGroupWrapper-o-Zw7G , .container-3ayLPN , .searchResultsWrap-2DKFzt , .quickswitcher-3JagVE , 
-.react-datepicker , .popoutList-T9CKZQ , .bd-modal-body {background-color: rgba(25,25,25,0.5)!important; border-radius: 10px!important;}
+.react-datepicker , .popoutList-T9CKZQ , .bd-modal-body , .root-1gCeng {background-color: rgba(25,25,25,0.5)!important; border-radius: 10px!important;}
 .footer-3rDWdC , .footer-3mqk7D  {background-color: rgba(0,0,0,0.5)!important; border-radius: 0 0 10px 10px;}
 .header-1R_AjF , .react-datepicker__header {background-color: transparent!important;}
 
@@ -285,7 +295,7 @@ a[target="_blank"] {color: red;}
 /*TopBar*/
 .typeWindows-1za-n7 , .notice-2FJMB4 {background-color: rgba(0,0,0,0.7); border-bottom: 2px solid rgb(100,0,0); height: 30px}
 .typeWindows-1za-n7:after {
-	content: "GGO Kirito v1.1.2 By VaporousCreeper";
+	content: "GGO Kirito v1.1.3 By VaporousCreeper";
 	color: rgb(255,255,255,0.6);
 	font-weight: 500;
 
