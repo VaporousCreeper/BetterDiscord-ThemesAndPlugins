@@ -8,7 +8,7 @@ The 2 items above are not owned by me, They go to there respected owners
 */
 
 :root{
-    --background: url('https://wpblink.com/sites/default/files/wallpaper/anime/66761/sword-art-online-ii-wallpapers-hd-66761-327252.png');
+    --background: url('https://images.alphacoders.com/632/632525.png');
 
     --transparency-1: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.55));
 	--transparency-2: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.55));
@@ -295,7 +295,7 @@ a[target="_blank"] {color: red;}
 /*TopBar*/
 .typeWindows-1za-n7 , .notice-2FJMB4 {background-color: rgba(0,0,0,0.7); border-bottom: 2px solid rgb(100,0,0); height: 30px}
 .typeWindows-1za-n7:after {
-	content: "GGO Kirito v1.1.3 By VaporousCreeper";
+	content: "GGO Kirito v1.1.4 By VaporousCreeper";
 	color: rgb(255,255,255,0.6);
 	font-weight: 500;
 
