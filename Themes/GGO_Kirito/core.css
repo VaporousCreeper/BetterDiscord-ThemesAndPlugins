@@ -72,8 +72,8 @@ The 2 items above are not owned by me, They go to there respected owners
 /*Channels*/
 .containerDefault-3GGEv_ {background-color: rgba(100,0,0,0.5); height: 30px; text-align: center; border-radius: 10px; padding: 5px 5px 0 5px;}
 
-.channels-Ie2l6A div[class*="container-"] { padding-bottom: 14px;}
 .container-3baos1 , .container-1giJp5 {background-image: var(--transparency-1)!important; background-color: rgba(0,0,0,0)!important; margin-bottom: 0;}
+.panels-j1Uci_ {background-color: transparent;}
 
 	/*Text*/
 	.content-3at_AU {margin: 0; width: 200px; transition: width 0.2s; transition-timing-function: ease-in-out; background-color: rgba(50,50,50,0.15)}
@@ -295,7 +295,7 @@ a[target="_blank"] {color: red;}
 /*TopBar*/
 .typeWindows-1za-n7 , .notice-2FJMB4 {background-color: rgba(0,0,0,0.7); border-bottom: 2px solid rgb(100,0,0); height: 30px}
 .typeWindows-1za-n7:after {
-	content: "GGO Kirito v1.1.4 By VaporousCreeper";
+	content: "GGO Kirito v1.1.5 By VaporousCreeper";
 	color: rgb(255,255,255,0.6);
 	font-weight: 500;
 
@@ -325,3 +325,4 @@ a[target="_blank"] {color: red;}
 
 /*Other*/
 .selected-1HYmZZ a {background-color: rgba(150,150,150,0.4)!important; margin-left: 15px}
+#app-mount .app-2rEoOp {background-color: transparent;}
