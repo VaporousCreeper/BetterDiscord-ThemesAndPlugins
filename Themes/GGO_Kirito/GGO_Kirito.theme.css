@@ -1,6 +1,6 @@
-//META{"name":"GGO Kirito","description":"A theme with Kirito and Deathgun fighting in GGO (Gun Gale Online)","author":"VaporousCreeper","version":"Auto"}*//
+//META{"name":"TEST GGO Kirito","description":"A theme with Kirito and Deathgun fighting in GGO (Gun Gale Online)","author":"VaporousCreeper","version":"TEST","source":"https://github.com/VaporousCreeper/BetterDiscord/tree/master/Themes/GGO_Kirito"}*//
 @import url('https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Modules/transparency2.css');
-@import url('https://vaporouscreeper.github.io/BetterDiscord-ThemesAndPlugins/Themes/GGO_Kirito/core.css')
+@import url('https://raw.githack.com/VaporousCreeper/BetterDiscord-ThemesAndPlugins/master/Themes/GGO_Kirito/core.css');
 
 :root{
     --background: url('https://images.alphacoders.com/632/632525.png');
