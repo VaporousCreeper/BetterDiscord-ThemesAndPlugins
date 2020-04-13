@@ -39,11 +39,16 @@ The 2 items above are not owned by me, They go to there respected owners
 
 	/*Home*/
 	#app-mount .container-1r6BKw {background: transparent;}
-
-	#app-mount .popoutContainer-3WC9HR:hover, 
-	#app-mount .popoutContainer-3WC9HR .popout-3G62UL {
+ 
+	#app-mount .itemCard-v9viV7,
+	#app-mount .popout-38lTFE {
 		background-color: var(--secondary3-colour)
 	}
+	#app-mount .itemCard-v9viV7:hover, 
+	#app-mount .itemCard-v9viV7.active-1xchHY {
+		background-color: var(--secondary2-colour);
+	}
+	#app-mount .body-1ld4H7 {background-color: var(--secondary1-colour);}
 
 	#app-mount .item-3HknzM[aria-label="Add Friend"] {background-color: var(--primary1-colour)!important}
 	#app-mount .item-3HknzM[style*="rgba(67, 181, 129, 0.2)"] {background-color: var(--primary2-colour)!important; color: var(--primary1-colour)!important;}
@@ -506,7 +511,7 @@ The 2 items above are not owned by me, They go to there respected owners
 		#app-mount .searchBar-2pWH0_ {background-color: var(--secondary1-colour)!important}
 
 		#app-mount .header-1nkwgG .input-1Rv96N {color: var(--activetext-colour);}
-		#app-mount .header-1nkwgG ::-webkit-input-placeholder {color: rgba(255,255,255,0.5);}
+		#app-mount .header-1nkwgG ::-webkit-input-placeholder {color: var(--activetext-colour);}
 
 		#app-mount .infoBar-U6oBFk {background-color: var(--secondary3-colour);}
 		#app-mount .categories-1feg4n .selected-39BZ4S {border-color: var(--primary1-colour)}
