@@ -101,35 +101,37 @@ The 2 items above are not owned by me, They go to there respected owners
 
 
 		/*Channels*/
-		#app-mount .containerDefault-3GGEv_ {
+		#app-mount .containerDefault-3tr_sE {
 			background-color: var(--primary3-colour); 
 			height: 30px; text-align: center; 
 			border-radius: 10px; 
 			padding: 5px 5px 0 5px;
 		}
-		#app-mount .container-3baos1,
+		#app-mount .container-3w7J-x,
 		#app-mount .activityPanel-28dQGo {
 			background-image: var(--transparency-1); 
 			background-color: rgba(0,0,0,0); 
 			margin-bottom: 0;
 		}
 
-		#app-mount .containerDefault-3GGEv_ {margin-top: 15px;}
+		#app-mount .containerDefault-3tr_sE {margin-top: 15px;}
 		#app-mount .unreadBar-3YD_k9 {background-color: var(--primary1-colour);}
+		#app-mount .containerDefault--pIXnN {margin-right: 10px;}
 
 
 			/*Text*/
-			#app-mount .content-3at_AU:hover {width: 100%; background-color: var(--secondary2-colour)}
-			#app-mount .selected-37j_iU .content-3at_AU {margin: 0; width: 100%; background-color: var(--secondary2-colour);}
-			#app-mount .content-3at_AU {
-				margin: 0; 
-				width: 200px; 
+			#app-mount .containerDefault--pIXnN .content-1x5b-n:hover {width: 100%;}
+			#app-mount .containerDefault--pIXnN.selected-3LIHYU .content-1x5b-n {width: 100%;}
+			#app-mount .content-1x5b-n { background-color: var(--secondary1-colour) }
+			#app-mount .content-1x5b-n:hover,
+			#app-mount .containerDefault--pIXnN.selected-3LIHYU  .content-1x5b-n { background-color: var(--secondary2-colour)}
+			#app-mount .containerDefault--pIXnN .content-1x5b-n{
+				width: 190px; 
 				transition: width 0.2s; 
 				transition-timing-function: ease-in-out; 
-				background-color: var(--secondary1-colour)
 			}
 
-			#app-mount .containerDefault-1ZnADq .modeMuted-3osy7j div.content-3at_AU {background-color: var(--primary3-colour);}
+			#app-mount .containerDefault--pIXnN .modeMuted-onO3r- div.content-1x5b-n {background-color: var(--primary3-colour);}
 
 				/*Embeds*/
 				#app-mount .embedFull-2tM8-- {
@@ -141,8 +143,8 @@ The 2 items above are not owned by me, They go to there respected owners
 
 
 			/*Voice*/
-			#app-mount .containerDefault-1ZnADq .modeConnected-2IEL4z div.content-3at_AU {width: 100%; background-color: var(--secondary2-colour);}
-			#app-mount .containerDefault-1ZnADq .modeLocked-SZJhTy div.content-3at_AU {background-color: var(--primary3-colour);}
+			#app-mount .containerDefault--pIXnN .modeConnected-3IsKId div.content-1x5b-n {width: 100%; background-color: var(--secondary2-colour);}
+			#app-mount .containerDefault--pIXnN .modeLocked-25wLHj div.content-1x5b-n {background-color: var(--primary3-colour);}
 
 				/*VC Info*/
 				#app-mount .panels-j1Uci_ {background-color: transparent;}
@@ -206,9 +208,7 @@ The 2 items above are not owned by me, They go to there respected owners
 		#app-mount .unreadMentionsBar-1VrBNe {background-color: var(--primary1-colour);}
 		#app-mount .channelTextArea-rNsIhG .scrollableContainer-2NUZem {background-color: var(--secondary1-colour);}
 
-		#app-mount .newMessagesBar-mujexs {background-color: var(--primary1-colour)} 
-		#app-mount .newMessagesBar-mujexs:hover {background-color: rgb(255,50,50)}
-		#app-mount .newMessagesBar-mujexs:active {background-color: rgb(255,100,100)}
+		#app-mount .newMessagesBar-265mhP {background-color: var(--primary1-colour)} 
 
 		#app-mount .buttons-cl5qTG .wrapper-2aW0bm {background-color: var(--secondary1-colour);}
 		#app-mount .message-2qnXI6 {
@@ -229,22 +229,22 @@ The 2 items above are not owned by me, They go to there respected owners
 
 
 	/*ScrollBars*/
-	#app-mount ::-webkit-scrollbar-thumb {background-color: var(--primary3-colour); border-color: transparent;}
+	#app-mount ::-webkit-scrollbar-thumb {background-color: var(--primary2-colour); border-color: transparent;}
 
 	#app-mount .scrollerWrap-2lJEkd ::-webkit-scrollbar-track-piece {
 		background-color: transparent; 
 		border-color: transparent;
 	}
 
-	#app-mount .messagesWrapper-3lZDfY ::-webkit-scrollbar-track-piece, 
-	#app-mount .friendsTable-133bsv ::-webkit-scrollbar-track-piece, 
-	#app-mount .gameLibrary-TTDw4Y ::-webkit-scrollbar-track-piece {
+	#app-mount .messagesWrapper-1sRNjr ::-webkit-scrollbar-track-piece, 
+	#app-mount .peopleColumn-29fq28 ::-webkit-scrollbar-track-piece, 
+	#app-mount .homeWrapperNormal-2KSUEa ::-webkit-scrollbar-track-piece {
 		background-color: transparent; 
 		border-color: transparent;
 	}
-	#app-mount .messagesWrapper-3lZDfY ::-webkit-scrollbar-track, 
-	#app-mount .friendsTable-133bsv ::-webkit-scrollbar-track, 
-	#app-mount .gameLibrary-TTDw4Y ::-webkit-scrollbar-track {
+	#app-mount .messagesWrapper-1sRNjr ::-webkit-scrollbar-track, 
+	#app-mount .peopleColumn-29fq28 ::-webkit-scrollbar-track, 
+	#app-mount .homeWrapperNormal-2KSUEa ::-webkit-scrollbar-track {
 		background-color: var(--primary3-colour); 
 		border-radius: 10px; 
 		border-color: var(--primary3-colour)
@@ -548,7 +548,7 @@ The 2 items above are not owned by me, They go to there respected owners
 		height: 30px
 	}
 	#app-mount .typeWindows-1za-n7:after {
-		content: "GGO Kirito v1.2.0 By VaporousCreeper";
+		content: "GGO Kirito v1.2.1 By VaporousCreeper";
 		color: rgb(255,255,255,0.5);
 		font-weight: 500;
 
