@@ -1,0 +1,18 @@
+:root{
+    --background: url('https://raw.githack.com/VaporousCreeper/BetterDiscord-ThemesAndPlugins/master/Themes/GGO_Kirito/templates/just_kirito_purple/Sword_Art_Online_Kirito__GGO__Kirigaya_Kazuto_1920x1312.jpg');
+    --activetext-colour: white;
+
+    --primary1-colour: purple;
+    --primary2-colour: rgba(128,0,128,0.5);
+    --primary3-colour: rgba(128,0,128,0.3);
+
+    --secondary1-colour: rgba(50,50,50,0.3);
+    --secondary2-colour: rgba(100,100,100,0.5);
+    --secondary3-colour: rgba(0,0,0,0.5);
+
+    --transparency-1: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    --transparency-2: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    --transparency-3: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    --transparency-4: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    --transparency-5: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+}
