@@ -75,7 +75,6 @@ The 2 items above are not owned by me, They go to there respected owners
 
 	#app-mount .numberBadge-2s8kKX {background-color: var(--primary1-colour)!important}
 
-	#app-mount .pill-31IEus .item-2hkk8m {background-color: var(--secondary1-colour)}
 	#app-mount #bd-pub-li .wrapper-25eVIn {background-color: var(--secondary1-colour)}
 
 	.folder .wrapper-1BJsBx {background-color: var(--secondary2-colour)!important; transition: background-color .15s ease-out;}
@@ -321,8 +320,12 @@ The 2 items above are not owned by me, They go to there respected owners
 	#app-mount .contentColumn-2hrIYH {max-width: 90%;padding: 60px 30px 80px}
 
 		/*User Settings*/
+		#app-mount .control-2BBjec .container-3auIfb svg[fill="none"] path{
+			fill: var(--primary1-colour)
+		}
+
 		#app-mount .lookFilled-1Gx00P, 
-		#app-mount .valueChecked-m-4IJZ, 
+		#app-mount .control-2BBjec .container-3auIfb, 
 
 		#app-mount .bd-button,
 		#app-mount .bd-switch-checked,
@@ -334,16 +337,10 @@ The 2 items above are not owned by me, They go to there respected owners
 		}
 
 
-		#app-mount .item-26Dhrx[style*="rgb(114, 137, 218)"] .checkbox-1ix_J3 {background-color: var(--activetext-colour)!important; border-color: transparent!important;}
-		#app-mount .item-26Dhrx[style*="rgb(114, 137, 218)"] {background-color: var(--primary1-colour)!important; border-color: var(--primary1-colour)!important;} 
-		#app-mount polyline[stroke='#7289da'] {stroke:var(--primary1-colour)}
+		#app-mount .item-26Dhrx circle {fill: var(--primary1-colour)}
+		#app-mount .item-26Dhrx {background-color: var(--secondary1-colour)} 
+		#app-mount .item-26Dhrx[tabindex="0"] {background-color: var(--secondary2-colour)}
 
-		#app-mount .item-26Dhrx .checkbox-1ix_J3 {
-			background-color: transparent; 
-			border: 2px solid; 
-			border-color: var(--secondary1-colour);
-		}
-		#app-mount .item-26Dhrx {border-color: transparent;}
 		#app-mount .item-26Dhrx .title-3BE6m5 {margin-top: 1px;}
 
 		#app-mount .game-1ipmAa:before,
@@ -379,6 +376,13 @@ The 2 items above are not owned by me, They go to there respected owners
 			background-color: var(--primary1-colour);
 		}
 	 	
+		#app-mount .connection-1fbD7X, 
+		#app-mount .accountList-33MS45 {
+			background-color: var(--secondary3-colour);
+		}
+
+		#app-mount .connectionHeader-2MDqhu {background-color: var(--secondary1-colour);}
+
 	 	/*Server Settings*/
 		#app-mount .emojiRow-zIc7ZX:before, 
 		#app-mount .member-1q7VfX:before, 
@@ -386,6 +390,13 @@ The 2 items above are not owned by me, They go to there respected owners
 		#app-mount .bannedUser-1IalTM:before {
 			background-color: var(--secondary1-colour)
 		}
+
+
+		#app-mount .deny-3nAuT6:not(.selected-2YhbGh) {background-color: rgba(100,0,0,0.5);}
+		#app-mount .allow-1PzSY3:not(.selected-2YhbGh) {background-color: rgba(0,100,0,0.5);}
+
+		#app-mount .passthrough-1c2ewQ {background-color: rgba(100,100,100,0.5)}
+		#app-mount .passthrough-1c2ewQ.selected-2YhbGh {background-color: rgb(100,100,100)}
 
 		/*CustomCSS*/
 		#app-mount .ace_editor {background-color: var(--secondary3-colour);} /*Transparency*/
@@ -418,6 +429,7 @@ The 2 items above are not owned by me, They go to there respected owners
 		#app-mount .bd-modal-body, 
 		#app-mount .root-1gCeng,
 		#app-mount .noiseCancellationPopout-iRK2A0,
+		#app-mount .colorPickerCustom-2CWBn2,
 
 		#app-mount .keyboardShortcutsModal-3piNz7,
 		#app-mount .bd-card {
@@ -425,8 +437,9 @@ The 2 items above are not owned by me, They go to there respected owners
 			border-radius: 10px;
 		}
 
-		#app-mount .footer-3rDWdC, 
-		#app-mount .footer-3mqk7D{
+		#app-mount .footer-3rDWdC,
+		#app-mount .footer-3mqk7D,
+		#app-mount .footer-2gL1pp {
 			background-color: var(--secondary3-colour); 
 			border-radius: 0 0 10px 10px;
 		}
@@ -441,7 +454,7 @@ The 2 items above are not owned by me, They go to there respected owners
 
 	#app-mount .headerNormal-T_seeN, 
 	#app-mount .topSectionNormal-2-vo2m, 
-	#app-mount .body-3ND3kc, 
+	#app-mount .body-3iLsc4, 
 	#app-mount .quickMessage-2XpSaN {
 		background-color: var(--secondary1-colour)
 	}
@@ -548,7 +561,7 @@ The 2 items above are not owned by me, They go to there respected owners
 		height: 30px
 	}
 	#app-mount .typeWindows-1za-n7:after {
-		content: "GGO Kirito v1.2.1 By VaporousCreeper";
+		content: "GGO Kirito v1.2.2 By VaporousCreeper";
 		color: rgb(255,255,255,0.5);
 		font-weight: 500;
 
