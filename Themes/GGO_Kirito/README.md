@@ -6,8 +6,5 @@ Transparency2 Module: https://raw.githack.com/Ruben7173/Ruben7173.github.io/mast
 The 2 items above are not owned by me, They go to there respected owners
 
 
-## Previews
-![Preview1](https://raw.githubusercontent.com/VaporousCreeper/BetterDiscord/master/Themes/GGO_Kirito/GGO_Kirito_Preview1.png)
-![Preview2](https://raw.githubusercontent.com/VaporousCreeper/BetterDiscord/master/Themes/GGO_Kirito/GGO_Kirito_Preview2.png)
-![Preview3](https://raw.githubusercontent.com/VaporousCreeper/BetterDiscord/master/Themes/GGO_Kirito/GGO_Kirito_Preview3.png) 
-![Preview4](https://raw.githubusercontent.com/VaporousCreeper/BetterDiscord/master/Themes/GGO_Kirito/GGO_Kirito_Preview4.png)
+## Preview
+![Preview](https://raw.githubusercontent.com/VaporousCreeper/BetterDiscord-ThemesAndPlugins/master/Themes/GGO_Kirito/GGOThumbnail.PNG)
