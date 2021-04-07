@@ -31,10 +31,9 @@ This method is used when you're downloading this theme from here, my github repo
 ## Installation
 You can use this method is install other themes or plugins. This method assumes that you've downloaded the theme to your `Downloads` folder or somewhere else besides the destination where the theme needs to go.
 
-1. Head to your folder where you've downloaded your theme. If you can get 2 windows up where your theme you've downloaded to and another one to navigate, it will make things easier on you.
-1. Copy your theme you've downloaded. *If you have 2 windows opened for this, skip this step.*
+1. Head to your folder where you've downloaded your theme. 
+1. Copy your theme you've downloaded. 
 1. Navigate to `C:\Users\USERNAME\AppData\Roaming\BetterDiscord\themes`
-1. Paste your theme here. *If you have 2 windows opened for this, skip this step.*
-1. Drag your theme from where you've downloaded your theme to your `themes` folder. *If you have 1 window open for this, skip this step.*
+1. Paste your theme here. 
 1. You've now installed your theme and you can now safely close the window. Enjoy.
 
