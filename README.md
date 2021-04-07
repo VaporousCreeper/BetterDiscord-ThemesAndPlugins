@@ -5,4 +5,4 @@ Where I store all of my BetterDiscord uploads
 ## Frequent Asked Questions 
 
 ### Q: Can you make a custom theme for me?
-A: Off to a bad start already. Download and Install a theme that has theme customization available. In my case, Download the `GGO_Kirito.theme.css` from this repo or from BetterDiscord server under the `#official theme list`.
+A: The quick answer is No. However you can Download and Install a theme that has theme customization available. In this case, Download the `GGO_Kirito.theme.css` from this repo or from BetterDiscord server under the `#official theme list`.
