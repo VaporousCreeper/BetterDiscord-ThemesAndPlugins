@@ -36,7 +36,10 @@ The 2 items above are not owned by me, They go to there respected owners
 		background-position: center; 
 		background-size: cover; 
 	}
-
+	div[data-list-item-id="guildsnav___home"] {
+	background: var(--home-image) top center/110% no-repeat;
+}
+	
 	/*Home*/
 	#app-mount .container-1r6BKw {background: transparent;}
  
