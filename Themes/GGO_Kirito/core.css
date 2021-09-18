@@ -64,6 +64,7 @@ The 2 items above are not owned by me, They go to there respected owners
 
 	/*Servers*/
 	#app-mount .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {background-color: var(--primary3-colour)}
+	#app-mount .wrapper-3NnKdC {background-color: var(--secondary3-colour);}
 	#app-mount .wrapper-1BJsBx .childWrapper-anI2G9 {
 		background-color: var(--primary3-colour); 
 		color: var(--activetext-colour);
@@ -81,8 +82,8 @@ The 2 items above are not owned by me, They go to there respected owners
 	.folder .wrapper-1BJsBx:hover {background-color: var(--primary3-colour)!important;}
 
 	#app-mount .folder-21wGz3 {background-color: transparent;}
-	#app-mount .expandedFolderBackground-2sPsd- {background-color: var(--secondary1-colour);}
-	#app-mount .expandedFolderBackground-2sPsd-.collapsed-1GMuSb {
+	#app-mount .expandedFolderBackground-1cujaW {background-color: var(--secondary1-colour);}
+	#app-mount .expandedFolderBackground-1cujaW.collapsed-2ZrjoL {
 		background-color: transparent; 
 		transition: background-color .15s ease-out;
 	}
@@ -449,21 +450,17 @@ The 2 items above are not owned by me, They go to there respected owners
 		}
 
 	/*User Popup*/
-	#app-mount .bodyInner-245q0L, #app-mount .footer-1fjuF6 {background-color: var(--secondary1-colour)}
-	#app-mount .userPopout-3XzG_A {border-radius: 10px}
+	#app-mount .bodyInner-245q0L {background-color: var(--secondary1-colour)}
+	#app-mount .userPopout-xaxa6l {border-radius: 10px; background-color: var(--secondary1-colour);}
+	#app-mount .bodyInnerWrapper-26fQXj { background-color: transparent }
+	#app-mount .footer-3UKYOU {background-color: var(--secondary3-colour); padding: 16px;}
+	#app-mount .footer-3UKYOU .inputDefault-_djjkz {background-color: var(--secondary1-colour);}
 
-	#app-mount .headerNormal-T_seeN, 
-	#app-mount .topSectionNormal-2-vo2m, 
-	#app-mount .body-3iLsc4, 
-	#app-mount .quickMessage-2XpSaN {
-		background-color: var(--secondary1-colour)
+	#app-mount .topSection-y3p-_D,
+	#app-mount .body-r6_QPy {
+		background-color: var(--secondary3-colour);
 	}
-
-	#app-mount .headerPlaying-j0WQBV, #app-mount .topSectionPlaying-1J5E4n {background-color: rgba(114,137,218,0.5);}
-	#app-mount .headerSpotify-zpWxgT, #app-mount .topSectionSpotify-1lI0-P {background-color: rgba(29,185,84,0.5)}
-	#app-mount .headerStreaming-2FjmGz, #app-mount .topSectionStreaming-1Tpf5X {background-color: rgba(89,54,149,0.5)}
-	#app-mount .headerXbox-3G-4PF, #app-mount .topSectionXbox-3fWLjS {background-color: rgba(16,124,16,0.5)}
-
+	
 	#app-mount .activityName-1IaRLn {color: var(--activetext-colour)!important;}
 		
 	/*Upload Popup*/
@@ -561,7 +558,7 @@ The 2 items above are not owned by me, They go to there respected owners
 		height: 30px
 	}
 	#app-mount .typeWindows-1za-n7:after {
-		content: "GGO Kirito v1.2.2 By VaporousCreeper";
+		content: "GGO Kirito v1.2.3 By VaporousCreeper";
 		color: rgb(255,255,255,0.5);
 		font-weight: 500;
 
