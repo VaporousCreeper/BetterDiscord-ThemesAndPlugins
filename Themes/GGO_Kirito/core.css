@@ -27,6 +27,60 @@ The 2 items above are not owned by me, They go to there respected owners
 }
 
 /*--------------------------------------------------------*/
+	#app-mount {
+		background: var(--background-image);
+	}
+	
+	/* removing backgrounds */
+
+	/* Guild and Top bar transparency */
+	.theme-dark .wrapper-1_HaEi {
+		background:transparent;
+		background-image: var(--transparency-1);
+	}
+	
+	/* transparency for channels and members list and private channels and left side of settings*/
+	.container-1NXEtd, .privateChannels-oVe7HL, .app-3xd6d0 .standardSidebarView-E9Pc3j, .app-3xd6d0 .container-2cd8Mz {
+		background: transparent;
+		background-image: var(--transparency-2);
+	}
+	.theme-dark .panels-3wFtMD, .theme-light .panels-3wFtMD {
+		background: var(--transparency-2);
+	}
+	/* chat and top area and other secondary pages */
+	.app-3xd6d0 .chat-2ZfjoI, .app-3xd6d0 .scrollableContainer-15eg7h {
+		background: transparent;
+		background-image: var(--transparency-3);
+	}
+	/* removing color from specific class */
+	.panels-j1Uci_ {
+		background-color: transparent;
+	}
+	/* extra for transparency 3 special case */
+	.themeDark-3Ap_7i, .app-3xd6d0 .chat-3bRxxu {
+		background-color: transparent;
+		background-image: var(--transparency-3);
+	}
+	.typeWindows-2-g3UY {
+		background-image: var(--transparency-5);
+	}
+	/* removes margin from top area and adds it to the nav buttons + discord logo */
+	.typeWindows-2-g3UY {
+		height: 21px;
+		margin-top: 0px;
+	}
+	/* removes a border under better discord at channels */
+	.unread-1xRYoj {
+		display:none;
+	}
+	/* fixes */
+	.theme-dark {
+		--background-primary: none;
+		--background-secondary: none;
+		--background-tertiary: none;
+		--background-accent: none;
+	} 
+/*--------------------------------------------------------*/
 
 /*Theme Itself*/
 	/*Background Img*/
@@ -206,7 +260,7 @@ The 2 items above are not owned by me, They go to there respected owners
 
 		#app-mount a.anchor-3Z-8Bb {color: var(--primary1-colour);}
 		#app-mount .unreadMentionsBar-1VrBNe {background-color: var(--primary1-colour);}
-		#app-mount .channelTextArea-rNsIhG .scrollableContainer-2NUZem {background-color: var(--secondary1-colour);}
+		#app-mount .channelTextArea-rNsIhG .scrollableContainer-15eg7h {background-color: var(--secondary1-colour);}
 
 		#app-mount .newMessagesBar-265mhP {background-color: var(--primary1-colour)} 
 
@@ -551,14 +605,14 @@ The 2 items above are not owned by me, They go to there respected owners
 		#app-mount .bd-modal-inner button {background-color: var(--primary1-colour)}
 
 	/*TopBar*/
-	#app-mount .typeWindows-1za-n7, 
-	#app-mount .notice-2FJMB4 {
+	#app-mount .typeWindows-2-g3UY {
 		background-color: var(--secondary3-colour); 
 		border-bottom: 2px solid var(--primary3-colour); 
-		height: 30px
+		height: 30px;
+		margin: 0px;
 	}
-	#app-mount .typeWindows-1za-n7:after {
-		content: "GGO Kirito v1.2.3 By VaporousCreeper";
+	#app-mount .typeWindows-2-g3UY:after {
+		content: "GGO Kirito v1.2.4 By VaporousCreeper";
 		color: rgb(255,255,255,0.5);
 		font-weight: 500;
 
@@ -567,8 +621,8 @@ The 2 items above are not owned by me, They go to there respected owners
 		left: 43.2%;
 	}
 
-	#app-mount .wordmark-2iDDfm {top: 3.3px;}
-	#app-mount .winButton-iRh8-Z {top: 1px;}
+	#app-mount .wordmark-2u86JB {top: 3.3px;}
+	#app-mount .winButton-3UMjdg {top: 1px;}
 
 	/*Main Login*/
 	#app-mount .splashBackground-1FRCko .image-2jyRAK, 
