@@ -15,7 +15,7 @@ There is 2 methods of downloading this theme, Direct download and Save Page As.
 ### Method 1: Direct Download
 Direct Download links like these are will regularly appear in BetterDiscord server and will be under theme and plugin repos. Click on the following link to start the theme download.
 
-Link: https://betterdiscord.net/ghdl?id=3217
+Link: https://betterdiscord.app/theme/GGO%20Kirito
 
 ### Method 2: Save Page As
 This method is used when you're downloading this theme from here, my github repo, and you don't want to waste your time downloading the entire repo.
