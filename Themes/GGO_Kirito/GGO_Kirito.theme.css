@@ -10,12 +10,12 @@
 @import url('https://raw.githack.com/VaporousCreeper/BetterDiscord-ThemesAndPlugins/master/Themes/GGO_Kirito/core.css');
 
 :root{
-    --background: url('https://images.alphacoders.com/632/632525.png');
+    --background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cb89700e-36e2-43be-a163-58f09df5511f/d89fx8r-b9fb47e8-c2fb-4b62-8bd4-948e015795dc.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2NiODk3MDBlLTM2ZTItNDNiZS1hMTYzLTU4ZjA5ZGY1NTExZlwvZDg5Zng4ci1iOWZiNDdlOC1jMmZiLTRiNjItOGJkNC05NDhlMDE1Nzk1ZGMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.gC07VheL4HFIchfS7gfFGDfo0nZPyfYv3kLu6Yy5EpA');
     --activetext-colour: white;
 
-    --primary1-colour: red;
-    --primary2-colour: rgba(255,0,0,0.5);
-    --primary3-colour: rgba(100,0,0,0.6);
+    --primary1-colour: cyan;
+    --primary2-colour: rgba(0,255,255,0.5);
+    --primary3-colour: rgba(0,100,100,0.6);
 
     --secondary1-colour: rgba(50,50,50,0.3);
     --secondary2-colour: rgba(100,100,100,0.5);
