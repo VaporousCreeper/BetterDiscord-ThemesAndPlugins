@@ -1,4 +1,23 @@
-  /*
+   :root{
+     --background: url('https://images.alphacoders.com/632/632525.png');
+     --activetext-colour: white;
+ 
+     --primary1-colour: red;
+     --primary2-colour: rgba(255,0,0,0.5);
+     --primary3-colour: rgba(100,0,0,0.6);
+ 
+     --secondary1-colour: rgba(50,50,50,0.3);
+     --secondary2-colour: rgba(100,100,100,0.5);
+     --secondary3-colour: rgba(0,0,0,0.5);
+ 
+     --transparency-1: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+     --transparency-2: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+     --transparency-3: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+     --transparency-4: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+     --transparency-5: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+ }
+   
+ /*
  Theme Owned and Made by VaporousCreeper#9514
    
  Background Img: https://wpblink.com/sites/default/files/wallpaper/anime/66761/sword-art-online-ii-wallpapers-hd-66761-327252.png 
@@ -285,11 +304,23 @@
         #app-mount .jumpToPresentBar-1cEnH0:hover {background-color: var(--secondary2-colour);}
 
         #app-mount .message-2CShn3 {padding: 0px 48px 0px 72px;}
-        #app-mount .message-2CShn3 .container-2sjPya,
-        #app-mount .message-2CShn3 .contents-2MsGLg {
+        #app-mount .message-2CShn3.cozyMessage-1DWF9U .container-2sjPya,
+        #app-mount .message-2CShn3.cozyMessage-1DWF9U .contents-2MsGLg {
             background-color: var(--secondary1-colour);
             padding: 5px 0px 5px 20px;
         }
+
+        #app-mount .message-2CShn3.compact-2Nkcau {padding-left: 0;}
+        #app-mount .message-2CShn3.compact-2Nkcau .contents-2MsGLg {
+            background-color: var(--secondary1-colour);
+            padding: 5px 0px 5px 80px;
+            text-indent: 0;
+        }
+        #app-mount .message-2CShn3.compact-2Nkcau .container-2sjPya {
+            background-color: var(--secondary1-colour);
+            padding: 5px 0px 5px 52px;
+        }
+
         #app-mount .buttonContainer-1502pf .wrapper-2vIMkT {
             background-color: var(--secondary1-colour);
             margin: 2px 20px 0px 0px;
@@ -798,7 +829,7 @@
         margin: 0px;
     }
     #app-mount .typeWindows-2-g3UY:after {
-        content: "GGO Kirito v1.3.1 By VaporousCreeper";
+        content: "GGO Kirito v1.3.2 By VaporousCreeper";
         color: rgb(255,255,255,0.5);
         font-weight: 500;
 
