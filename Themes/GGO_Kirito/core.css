@@ -828,15 +828,6 @@
         height: 30px;
         margin: 0px;
     }
-    #app-mount .typeWindows-2-g3UY:after {
-        content: "GGO Kirito v1.3.2 By VaporousCreeper";
-        color: rgb(255,255,255,0.5);
-        font-weight: 500;
-
-        position: absolute;
-        top: 8px;
-        left: 43.2%;
-    }
 
     #app-mount .wordmark-2u86JB {top: 3.3px;}
     #app-mount .winButton-3UMjdg {top: 1px;}
