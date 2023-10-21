@@ -1,4 +1,4 @@
-   :root{
+    :root{
      --background: url('https://images.alphacoders.com/632/632525.png');
      --activetext-colour: white;
  
@@ -40,15 +40,15 @@
 }
 
 /* transparency for channels and members list and private channels and left side of settings*/
-#app-mount .container-1NXEtd, .privateChannels-oVe7HL, .app-3xd6d0 .standardSidebarView-E9Pc3j, .app-3xd6d0 .container-2cd8Mz {
+#app-mount .container-1NXEtd, .privateChannels-oVe7HL, .app-1BipOi .standardSidebarView-E9Pc3j, .app-1BipOi .container-2cd8Mz {
     background: transparent;
-    background-image: var(--transparency-2);
+    background-image: var(--transparency-2); 
 }
 .theme-dark .panels-3wFtMD, .theme-light .panels-3wFtMD {
     background: var(--transparency-2);
 }
 /* chat and top area and other secondary pages */
-.app-3xd6d0 .chat-2ZfjoI, .app-3xd6d0 .scrollableContainer-15eg7h {
+.app-1BipOi .chat-2ZfjoI, .app-1BipOi .scrollableContainer-15eg7h {
     background: transparent;
     background-image: var(--transparency-3);
 }
@@ -57,15 +57,15 @@
     background-color: transparent;
 }
 /* extra for transparency 3 special case */
-.themeDark-3Ap_7i, .app-3xd6d0 .chat-3bRxxu {
+.themeDark-3Ap_7i, .app-1BipOi .chat-9g_3Xj {
     background-color: transparent;
     background-image: var(--transparency-3);
 }
-.typeWindows-2-g3UY {
+.typeWindows-3ILlhq {
     background-image: var(--transparency-5);
 }
 /* removes margin from top area and adds it to the nav buttons + discord logo */
-.typeWindows-2-g3UY {
+.typeWindows-3ILlhq {
     height: 21px;
     margin-top: 0px;
 }
@@ -139,7 +139,8 @@
 
     /*Now Active*/
         #app-mount .nowPlayingColumn-1eCBCN .itemCard-3Etziu {background-color: var(--secondary3-colour);}
-        #app-mount .nowPlayingColumn-1eCBCN .itemCard-3Etziu:hover {background-color: var(--secondary2-colour);}
+        #app-mount .nowPlayingColumn-1eCBCN .itemCard-3Etziu:hover {background-color: var(--secondary1-colour);}
+        #app-mount .nowPlayingColumn-1eCBCN .itemCard-3Etziu .body-16rSsp {background-color: var(--secondary2-colour);}
 
 /*In Servers*/
     #app-mount .listItem-3SmSlK .numberBadge-37OJ3S {
@@ -224,15 +225,14 @@
             #app-mount .containerDefault-YUSmu3 .modeLocked-3sToxd div.content-1gYQeQ {background-color: var(--primary3-colour);}
 
             /*VC Info*/
-                #app-mount .container-1zzFcN,
-                #app-mount .container-YkUktl {
-                    background-color: var(--secondary3-colour);
+                #app-mount .container-1CH86i,
+                #app-mount .container-2NLBJg {
+                    background-color: transparent;
                 }
 
                 #app-mount .panels-3wFtMD .flex-2S1XBF .button-12Fmur,
-                #app-mount .panels-3wFtMD .actionButtons-2vEOUh,
-                #app-mount .panels-3wFtMD .container-YkUktl .flex-2S1XBF {
-                    background-color: var(--secondary1-colour);
+                #app-mount .panels-3wFtMD .actionButtons-2vEOUh {
+                    background-color: var(--secondary3-colour);
                     border-radius: 3px;
                 }
 
@@ -246,7 +246,23 @@
 
             /*VC User*/
                 #app-mount .list-2x9Cl9 { padding-left: 10px; }
-                #app-mount .avatarSpeaking-2pCGrZ {box-shadow:0 0 0 2px var(--primary1-colour);}
+                #app-mount .userAvatar-3Hwf1F { margin-left: 15px; }
+
+
+                #app-mount .avatarSpeaking-2pCGrZ {box-shadow: 0 0 0 2px var(--primary1-colour);}
+                #app-mount .avatarSpeaking-2pCGrZ::after {
+                    content: ":";
+                    color: transparent; 
+
+                    background-image: linear-gradient(to right, var(--primary2-colour), rgba(0,0,0,0));
+                    padding: 0 120px 11px 0;
+                    border-left: 5px solid var(--primary1-colour);
+
+                    position: relative;
+                    left: -15px;
+
+                    z-index: -1;
+                }
 
                 #app-mount .voiceUser-3nRK-K .content-1Tgc42:hover {background-color: transparent;}
                 #app-mount .voiceUser-3nRK-K {
@@ -393,8 +409,8 @@
     #app-mount .layout-1qmrhw:hover { margin-left: 8px; background-color: var(--secondary1-colour);}
     #app-mount .selected-1-Z6gm .layout-1qmrhw { margin-left: 8px; background-color: var(--secondary2-colour);}
 
-    #app-mount .membersGroup-2eiWxl span {color: var(--activetext-colour);}
-    #app-mount .membersGroup-2eiWxl {
+    #app-mount .membersGroup-2YoqY- span {color: var(--activetext-colour);}
+    #app-mount .membersGroup-2YoqY- {
         background-color: var(--primary3-colour);
 
         border: 2px solid var(--primary3-colour);
@@ -807,10 +823,12 @@
 
 /*Emoji, Gif and SoundBoard Picker Popup*/
     #app-mount .contentWrapper-3vHNP2,
+    #app-mount .contentWrapper-2f9yME,
     #app-mount .picker-20lcBA {
         background-color: var(--secondary3-colour); 
     }
     #app-mount .contentWrapper-3vHNP2 .inspector-DFKXwB,
+    #app-mount .contentWrapper-2f9yME .inspector-DFKXwB,
     #app-mount .soundButton-2P2Ua2:hover {
         background-color: var(--secondary2-colour);
     }
@@ -820,16 +838,17 @@
     #app-mount .contentWrapper-3vHNP2 .result-pzZrwj:hover:after {box-shadow: 0 0 2px 2px var(--primary1-colour);}
 
     #app-mount .contentWrapper-3vHNP2 .result-pzZrwj[style*="background-color: var(--premium-tier-1"] {background-color: var(--primary3-colour)!important;}
+    #app-mount .contentWrapper-3vHNP2 .result-pzZrwj[style*="background-color: rgb(146, 154, 250);"] {background-color: var(--primary2-colour)!important}
 
 /*TopBar*/
-    #app-mount .typeWindows-2-g3UY {
+    #app-mount .typeWindows-3ILlhq {
         background-color: var(--secondary3-colour); 
         border-bottom: 2px solid var(--primary3-colour); 
         height: 30px;
         margin: 0px;
     }
-    #app-mount .typeWindows-2-g3UY:after {
-        content: "GGO Kirito v1.3.2 By VaporousCreeper";
+    #app-mount .typeWindows-3ILlhq:after {
+        content: "GGO Kirito v1.3.3 By VaporousCreeper";
         color: rgb(255,255,255,0.5);
         font-weight: 500;
 
@@ -838,5 +857,5 @@
         left: 43.2%;
     }
 
-    #app-mount .wordmark-2u86JB {top: 3.3px;}
-    #app-mount .winButton-3UMjdg {top: 1px;}
+    #app-mount .wordmark-3wYFg6 {top: 3.3px;}
+    #app-mount .winButton-3SigSb {top: 2px;}
