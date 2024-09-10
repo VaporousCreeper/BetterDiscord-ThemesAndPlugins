@@ -1,5 +1,5 @@
 # GGO Kirito
-Background Img: https://images.alphacoders.com/632/632525.png
+Background Img: https://images.alphacoders.com/632/632525.png \
 Transparency2 Module: https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Modules/transparency2.css - By Ruben7173#5048
 
 The 2 items above are not owned by me. They go to there respected owners
