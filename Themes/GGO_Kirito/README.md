@@ -1,11 +1,4 @@
 # GGO Kirito
-Background Img: https://images.alphacoders.com/632/632525.png \
-Transparency2 Module: https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Modules/transparency2.css - By Ruben7173#5048
-
-The 2 items above are not owned by me. They go to there respected owners
-
-
-## Preview
 ![Preview](https://raw.githubusercontent.com/VaporousCreeper/BetterDiscord-ThemesAndPlugins/master/Themes/GGO_Kirito/GGOThumbnail.PNG)
 
 
@@ -13,7 +6,7 @@ The 2 items above are not owned by me. They go to there respected owners
 There is 2 methods of downloading this theme, Direct download and Save Page As.
 
 ### Method 1: Direct Download
-Direct Download links like these are will regularly appear in BetterDiscord server and will be under theme and plugin repos. Click on the following link to start the theme download.
+Betterdiscord themes and plugins can now be directly download the [website](https://betterdiscord.app).
 
 Link: https://betterdiscord.app/theme/GGO%20Kirito
 
@@ -29,11 +22,15 @@ This method is used when you're downloading this theme from here, my github repo
 1. You can now click `Save` and you can now move on to Installation .
 
 ## Installation
-You can use this method is install other themes or plugins. This method assumes that you've downloaded the theme to your `Downloads` folder or somewhere else besides the destination where the theme needs to go.
+You can use this method is install other themes or plugins.
 
-1. Head to your folder where you've downloaded your theme. 
+1. Head to your folder where you've downloaded your theme on step 4 in Download procedure, Method 2. 
 1. Copy your theme you've downloaded. 
-1. Navigate to `C:\Users\USERNAME\AppData\Roaming\BetterDiscord\themes`
-1. Paste your theme here. 
+1. Navigate to `C:\Users\USERNAME\AppData\Roaming\BetterDiscord\themes` and paste your theme here. 
 1. You've now installed your theme and you can now safely close the window. Enjoy.
 
+## Credits 
+Background Img: https://images.alphacoders.com/632/632525.png \
+Transparency2 Module: https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Modules/transparency2.css - By Ruben7173#5048
+
+The 2 items above are not owned by me. They go to their respected owners
