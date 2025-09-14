@@ -30,6 +30,6 @@ You can use this method is install other themes or plugins.
 1. You've now installed your theme and you can now safely close the window. Enjoy.
 
 ## Credits 
-Background Img: https://images.alphacoders.com/632/632525.png \
+Background Img: https://images.alphacoders.com/632/632525.png
 
 The items above are not owned by me. They go to their respected owners
