@@ -5,14 +5,10 @@
     --primary1-colour: cyan;
     --primary2-colour: rgba(0,255,255,0.5);
     --primary3-colour: rgba(0,100,100,0.6);
+    --primary4-colour: rgba(0,100,100,0.4);
 
     --secondary1-colour: rgba(50,50,50,0.3);
     --secondary2-colour: rgba(100,100,100,0.5);
-    --secondary3-colour: rgba(0,0,0,0.5);
-
-    --transparency-1: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-    --transparency-2: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-    --transparency-3: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-    --transparency-4: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-    --transparency-5: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    --secondary3-colour: rgba(0,0,0,0.6);
+    --secondary4-colour: rgba(0,0,0,0.3);
 }
