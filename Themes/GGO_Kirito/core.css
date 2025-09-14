@@ -5,16 +5,12 @@
      --primary1-colour: red;
      --primary2-colour: rgba(255,0,0,0.5);
      --primary3-colour: rgba(100,0,0,0.6);
+     --primary4-colour: rgba(100,0,0,0.4);
  
      --secondary1-colour: rgba(50,50,50,0.3);
      --secondary2-colour: rgba(100,100,100,0.5);
-     --secondary3-colour: rgba(0,0,0,0.5);
- 
-     --transparency-1: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-     --transparency-2: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-     --transparency-3: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-     --transparency-4: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-     --transparency-5: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+     --secondary3-colour: rgba(0,0,0,0.6);
+     --secondary4-colour: rgba(0,0,0,0.3);
  }
    
  /*
@@ -26,84 +22,54 @@
  The 2 items above are not owned by me, They go to there respected owners 
  */
  
-/*--------------------------------------------------------*/
-#app-mount {
-    background: var(--background-image);
-}
-
-/* removing backgrounds */
-
-/* Guild and Top bar transparency */
-.theme-dark .wrapper_ef3116 {
-    background:transparent;
-    background-image: var(--transparency-1);
-}
-
-/* transparency for channels and members list and private channels and left side of settings*/
-#app-mount .container__2637a, .privateChannels__35e86, .app_a3002d .standardSidebarView__23e6b, .app_a3002d .container__133bf {
-    background: transparent;
-    background-image: var(--transparency-2); 
-}
-.theme-dark .panels_c48ade, .theme-light .panels_c48ade {
-    background: var(--transparency-2);
-}
-/* chat and top area and other secondary pages */
-.app_a3002d .chat_f75fb0, .app_a3002d .scrollableContainer__74017 {
-    background: transparent;
-    background-image: var(--transparency-3);
-}
-/* removing color from specific class */
-.panels_c48ade {
-    background-color: transparent;
-}
-/* extra for transparency 3 special case */
-.themeDark-3Ap_7i, .app_a3002d .chat_f75fb0 {
-    background-color: transparent;
-    background-image: var(--transparency-3);
-}
-.typeWindows__421ed {
-    background-image: var(--transparency-5);
-}
-/* removes margin from top area and adds it to the nav buttons + discord logo */
-.typeWindows__421ed {
-    height: 21px;
-    margin-top: 0px;
-}
-/* removes a border under better discord at channels */
-.unread-1xRYoj {
-    display:none;
-}
-/* fixes */
-.theme-dark {
-    --background-primary: none;
-    --background-secondary: none;
-    --background-tertiary: none;
-    --background-accent: none;
-} 
-/*--------------------------------------------------------*/
-
-/*Background Img*/
+/*Background  image*/
     #app-mount {
-        background-image: var(--background); 
+        background: var(--background);
         background-position: center; 
         background-size: cover; 
     }
 
+    #app-mount .bg__960e4,
+    #app-mount .app__160d8 { 
+        background-color: var(--secondary4-colour); 
+    }
+
 /*Home and Discover*/
     /*Nitro*/
-        #app-mount .applicationStore_f07d62 {background-color: var(--secondary3-colour);}
-        #app-mount .applicationStore_f07d62 .card_f8e6bf {background-color: var(--secondary1-colour);}
+        #app-mount .applicationStore_f07d62 .card_b5493b { background-color: var(--secondary1-colour); }
+        #app-mount .applicationStore_f07d62 .card_b5493b:hover { background-color: var(--secondary2-colour)!important; }
+        #app-mount .applicationStore_f07d62 .cardDescription_b5493b { background-image: linear-gradient(to bottom,var(--secondary2-colour) 50%,hsl(var(--primary-660-hsl)/.75) 80%); }
+
+        #app-mount .applicationStore_f07d62,
+        #app-mount .homeWrapperNormal__0920e,
+        #app-mount .homeWrapperNormal__0920e .mainPageScroller_ca1a02{ 
+            background-color: transparent; 
+        }
+
+        #app-mount .giftNitro_ca1a02 .textContainer_da4aee { background: none; }
 
         #app-mount .applicationStore_f07d62 .trialOfferWrapper-2Y24ok .button__201d5,
         #app-mount .activitiesBannerContainer-aAnWk6 .button__201d5 {
             background-color: white;
         } 
+
+        #app-mount .applicationStore_f07d62 .giftNitro_ca1a02 { background-color: var(--secondary3-colour); }
     
     /*Shop*/
+        #app-mount .shop__6db1d,
+        #app-mount .shop__6db1d .page__1feb0,
+        #app-mount .shop__6db1d .shopScroll__1feb0,
+        #app-mount .shop__6db1d .filterBar__11877,
+        #app-mount .shopScroll__08415,
+        #app-mount .shop__08415 { 
+            background-color: transparent; 
+        }
+        
         #app-mount .shop__6db1d .shopCard_c3d04b { background-color: var(--secondary1-colour); }
+        #app-mount .shop__6db1d .shopCard_c3d04b .cardText_c3d04b { background-color: var(--secondary1-colour); }
 
-        #app-mount .shop__6db1d .shopViewWrapper__6db1d { background-image: var(--transparency-3); }
-        #app-mount .shop__6db1d .headerBar__80679 {background-color: var(--secondary1-colour)!important;}
+        #app-mount .shop__6db1d .shopViewWrapper__6db1d { background-color: var(--secondary4-colour); }
+        #app-mount .shop__6db1d .headerBar__80679 {background-color: var(--secondary3-colour)!important;}
     
     /*Sidebar: Direct Messages*/
         #app-mount .channel__972a0,
@@ -125,12 +91,31 @@
             border-radius: 10px;
         }
 
+        #app-mount .containerDefault_c69b6d .wrapper__2ea32:hover,
+        #app-mount .containerDefault_c69b6d.selected_c69b6d .wrapper__2ea32 { 
+            background-color: var(--secondary2-colour)
+        }
+
+        #app-mount .container__133bf,
+        #app-mount .container__133bf .container__9293f,
+        #app-mount .container__133bf .tabBody__133bf,
+        #app-mount .container__133bf .container__7d20c,
+        #app-mount .container__133bf .nowPlayingColumn__133bf {
+            background-color: transparent;
+        }
+
+        #app-mount .tabBody__133bf .searchBar__5ec2f { background-color: var(--secondary3-colour); }
+        #app-mount .tabBody__133bf .searchBar__5ec2f:focus-within { border-color: var(--primary1-colour); }
+
+        #app-mount .item__133bf.addFriend__133bf { background-color: var(--primary1-colour); }
+        #app-mount .item__133bf.addFriend__133bf span { color: var(--activetext-colour); }
+
     /*Discover Servers*/
-        #app-mount .sidebar_c48ade .container__551b0 {background-image: var(--transparency-2);}
+        #app-mount .sidebar_c48ade .container__551b0 {background-color: var(--secondary4-colour);}
 
         #app-mount .scroller__23746 {
             background-color: transparent; 
-            background-image: var(--transparency-1);
+            background-color: var(--secondary4-colour);
         }
 
         #app-mount .content_f0d60d .card__84e3e  {
@@ -147,7 +132,7 @@
 
     /*App Directory*/
         #app-mount .directoryContainer_da3f59 {
-            background-image: var(--transparency-3);
+            background-color: var(--secondary4-colour)
         }
 
         #app-mount .directoryContainer_da3f59 .container_d9c848,
@@ -167,6 +152,8 @@
         }
 
 /*In Servers*/
+    #app-mount .wrapper_ef3116.guilds_c48ade { background-color: transparent; }
+    
     #app-mount .numberBadge__2b1f5 {
         background-color: var(--primary1-colour)!important;
         color: var(--activetext-colour);
@@ -180,7 +167,9 @@
         #app-mount .childWrapper__6e9f8:hover ,#app-mount .circleIconButton__5bc7e:hover {background-color: var(--primary3-colour);}
 
     /*Server Folders*/
-        #app-mount .expandedFolderBackground__48112:not(.collapsed__48112) {background-color: var(--secondary3-colour);}
+        #app-mount .folderGroup__48112 .folderGroupBackground__48112 { 
+            background-color: var(--secondary3-colour); 
+        }
         
     /*Server Boosting*/
         #app-mount .root__5c9fc .scroller__6fd0e { background-color: var(--secondary3-colour); }
@@ -193,20 +182,31 @@
 
 
     /*Channels*/
+        #app-mount .sidebarList_c48ade.sidebarListRounded_c48ade .container__2637a { background-color: transparent; }
+        #app-mount .sidebarList_c48ade.sidebarListRounded_c48ade .header_f37cb1 { background-color: var(--secondary3-colour); }  
+        
+        #app-mount .sidebarList_c48ade.sidebarListRounded_c48ade .privateChannels__35e86,
+        #app-mount .sidebarList_c48ade.sidebarListRounded_c48ade .privateChannels__35e86 .scroller__99e7c {
+            background-color: transparent;
+        }
+
         #app-mount .containerDefault__29444 {
             background-color: var(--primary3-colour); 
             height: 30px; text-align: center; 
             border-radius: 10px; 
             padding: 5px 5px 0 5px;
         }
+
+        #app-mount .containerDefault__29444 .iconVisibility__29444:not(.collapsed__29444) .overflow__82b15 { color: var(--activetext-colour); }
+
         #app-mount .activityPanel_c48ade {
-            background-image: var(--transparency-1); 
+            background-color: var(--secondary4-colour); 
             background-color: rgba(0,0,0,0); 
             margin-bottom: 0;
         }
 
-        #app-mount .containerDefault__29444 {margin-top: 15px;}
-        #app-mount .containerDefault_c69b6d {margin-right: 10px;}
+        #app-mount .containerDefault__29444 { margin-top: 15px; }
+        #app-mount .containerDefault_c69b6d { margin-right: 10px; }
 
         #app-mount .mention__3b95d,
         #app-mount .mentionsBadge__933a1 .numberBadge__2b1f5 {
@@ -217,19 +217,29 @@
 
         #app-mount .autocomplete__13533 {background-color: var(--secondary3-colour);}
 
+        #app-mount .containerDefault_c69b6d .wrapper__2ea32 .link__2ea32 { background-color: transparent; }
+
+        #app-mount .sidebarListRounded_c48ade { border-radius: 0; }
+        #app-mount .sidebarListRounded_c48ade .container_f37cb1 { border-right: 1px solid; }
+
+        #app-mount .channelChatWrapper_cb9592 {background: transparent!important;}
+
         /*Text Channels*/
-            #app-mount .containerDefault_c69b6d .wrapper__2ea32:hover {width: 100%;}
-            #app-mount .containerDefault_c69b6d.selected_c69b6d .wrapper__2ea32 {width: 100%;}
-            #app-mount .wrapper__2ea32 { background-color: var(--secondary1-colour) }
-            #app-mount .wrapper__2ea32:hover,
-            #app-mount .containerDefault_c69b6d.selected_c69b6d  .wrapper__2ea32 { background-color: var(--secondary2-colour)}
-            #app-mount .containerDefault_c69b6d .wrapper__2ea32{
-                width: 190px; 
+            #app-mount .containerDefault_c69b6d .wrapper__2ea32:hover { width: 100%; }
+            #app-mount .containerDefault_c69b6d.selected_c69b6d .wrapper__2ea32 { width: 100%; }
+            #app-mount .containerDefault_c69b6d .wrapper__2ea32 { background-color: var(--secondary1-colour) }
+
+            #app-mount .containerDefault_c69b6d .wrapper__2ea32 {
+                border-radius: 10px 0 0 10px;
+                width: 230px; 
                 transition: width 0.2s; 
                 transition-timing-function: ease-in-out; 
             }
 
-            #app-mount .containerDefault_c69b6d .modeMuted__2ea32 div.wrapper__2ea32 {background-color: var(--primary3-colour);}
+            #app-mount .containerDefault_c69b6d .modeMuted__2ea32,
+            #app-mount .containerDefault_c69b6d .modeLocked__2ea32 { 
+                background-color: var(--secondary3-colour); 
+            }
             
             #app-mount .actionBar_aa605f {
                 background-color: var(--secondary3-colour); 
@@ -237,14 +247,16 @@
             }
 
         /*Voice Channels*/
-            #app-mount .containerDefault_c69b6d .modeConnected__2ea32 div.wrapper__2ea32 {width: 100%; background-color: var(--secondary2-colour);}
-            #app-mount .containerDefault_c69b6d .modeLocked__2ea32 div.wrapper__2ea32 {background-color: var(--primary3-colour);}
+            #app-mount .containerDefault_c69b6d .modeConnected__2ea32 { width: 100%; 
+                background-color: var(--secondary2-colour); 
+            }
 
             /*VC Info*/
-                #app-mount .container__37e49,
-                #app-mount .container_e131a9 {
-                    background-color: transparent;
+                #app-mount .panels_c48ade {
+                    background-color: var(--secondary3-colour);
                 }
+
+                #app-mount .sidebar_c48ade::after { background-color: transparent; }
 
                 #app-mount .panels_c48ade .flex__7c0ba .button__67645,
                 #app-mount .panels_c48ade .actionButtons_e131a9 {
@@ -293,11 +305,6 @@
                 }
 
             /*Live Feed*/
-                #app-mount .root_bfe55a, 
-                #app-mount .callContainer_cb9592 {
-                    background: var(--transparency-1);
-                }
-
                 #app-mount .wrapper__1405b .controlButton__1405b[aria-label="Share Your Screen"],
                 #app-mount .wrapper__1405b .controlButton__1405b[aria-label="Disconnect"] {
                     background-color: var(--primary2-colour);
@@ -312,13 +319,30 @@
                     background-color: var(--secondary3-colour);
                 }
 
+                #app-mount .callContainer_cb9592,
+                #app-mount .callContainer_cb9592 .root_bfe55a,
+                #app-mount .wrapper_cb9592.video_cb9592 {
+                    background: transparent;
+                }
+
+                #app-mount .pulseGradient__11664 {opacity: 0%; }
+
             /*Noise Suporession*/
                 #app-mount .noiseCancellationPopout_e131a9 { background-color: var(--secondary3-colour); }
 
 
 
     /*Messages*/
-        #app-mount code {background-color: var(--secondary1-colour)}
+        #app-mount .chatContent_f75fb0,
+        #app-mount .chat_f75fb0,
+        #app-mount .chatContent_f75fb0 .wrapper_d852db,
+        #app-mount .chatContent_f75fb0 .wrapper_d852db .wrapper_fc8177  {
+            background-color: transparent;
+        }
+
+        #app-mount .subtitleContainer_f75fb0 { background-color: var(--secondary3-colour); }
+
+        #app-mount code { background-color: var(--secondary1-colour) }
 
         #app-mount .mention,
         #app-mount .channelMention .name_b52c3f {
@@ -370,9 +394,15 @@
             background-color: var(--secondary1-colour);
             margin: 2px 20px 0px 0px;
         }
-        #app-mount .hasReply_c19a55 .buttonContainer_c19a55 .wrapper_f7ecac{ margin-top: 24px; }
+        #app-mount .hasReply_c19a55 .buttonContainer_c19a55 .wrapper_f7ecac { margin-top: 24px; }
 
-        #app-mount .chat_f75fb0 .scrollableContainer__74017 { background-color: var(--secondary3-colour); }
+        #app-mount .form_f75fb0 .wrapper__44df5,
+        #app-mount .form_f75fb0 .scrollableContainer__74017 {
+            background-color: var(--secondary3-colour);
+        }
+
+        #app-mount .form_f75fb0 .channelTextArea_f75fb0 { background-color: transparent; }
+        #app-mount .form_f75fb0 .channelTextArea_f75fb0 .stackedBars__74017 { background-color: var(--secondary2-colour); }
 
         /*Embeds*/
             #app-mount .embedFull__623de {
@@ -414,7 +444,7 @@
             }
 
             #app-mount .container__01ae2 {
-                background-image: var(--transparency-3);
+                background-color: var(--secondary4-colour)
             }
 
             #app-mount .chat_f75fb0 .mainCard_f369db:hover,
@@ -436,11 +466,6 @@
                 background: transparent!important;
             }
 
-            #app-mount .chat_f75fb0 {
-                background: transparent!important;
-                background-image: var(--transparency-1)!important;
-            }
-
             #app-mount .chat_f75fb0 .roundButton_c15210.activeButton_c15210 { 
                 background-color: var(--primary1-colour); 
                 color: var(--activetext-colour);
@@ -452,14 +477,23 @@
             }
 
 /*Server Members*/
-    #app-mount .member__5d473 .layout__91a9d {
+    #app-mount .container_c8ffbb,
+    #app-mount .members_c8ffbb { 
+        background-color: transparent; 
+    }
+
+    #app-mount .member__5d473 {
         margin-left: 30px;
         transition: margin-left 0.2s;
         transition-timing-function: ease-in-out;
         border-radius: 10px;
+        background-color: var(--secondary1-colour);
     }
-    #app-mount .layout__91a9d:hover { margin-left: 8px; background-color: var(--secondary1-colour);}
-    #app-mount .selected__91a9d .layout__91a9d { margin-left: 8px; background-color: var(--secondary2-colour);}
+    #app-mount .member__5d473:hover { margin-left: 8px; background-color: var(--secondary2-colour);}
+    #app-mount .selected__91a9d { margin-left: 8px; background-color: var(--secondary2-colour);}
+
+    #app-mount .members_c8ffbb .container__0f2e8 { background-color: var(--secondary1-colour); }
+    #app-mount .members_c8ffbb .container__0f2e8:hover { background-color: var(--secondary2-colour); }
 
     #app-mount .membersGroup_c8ffbb span {color: var(--activetext-colour);}
     #app-mount .membersGroup_c8ffbb {
@@ -497,6 +531,15 @@
     }
 
 /*Settings*/
+    #app-mount .standardSidebarView__23e6b,
+    #app-mount .sidebarRegion__23e6b,
+    #app-mount .contentRegion__23e6b,
+    #app-mount .layer__960e4,
+    #app-mount .contentRegionScroller__23e6b,
+    #app-mount .sidebarRegionScroller__23e6b {
+        background-color: transparent;
+    }
+
     #app-mount .sidebarRegion__23e6b .side_b3f026 .item_b3f026 {
         line-height:15px; 
         background-color: var(--secondary1-colour); 
@@ -532,31 +575,38 @@
         margin-right: 20px;
     }
 
-    #app-mount .sidebarRegion__23e6b {flex: 0;}
-    #app-mount .contentColumn__23e6b {margin: auto;}
+    #app-mount .noticeRegion__23e6b { left: 25%; }
+    #app-mount .noticeRegion__23e6b .container_fcf29c { background-color: var(--secondary3-colour); }
 
-    #app-mount .noticeRegion__23e6b { 
-        left: 25%;
-    }
-
-    #app-mount .contentRegion__23e6b .item_b3f026:not(.tabBarItem__81b3e) {
+    #app-mount .contentRegion__23e6b .item_b3f026:not(.tab_f8303a, .settingsTabBarItem_dc2e0e, .tabBarItem__81b3e) {
         transition: background-color 0.2s; 
         transition-timing-function: ease-in-out; 
     }
-    #app-mount .contentRegion__23e6b .item_b3f026:hover:not(.tabBarItem__81b3e)  {
+    #app-mount .contentRegion__23e6b .item_b3f026:hover:not(.tab_f8303a, .settingsTabBarItem_dc2e0e, .tabBarItem__81b3e)  {
         background-color: var(--secondary2-colour);
     }
-    #app-mount .contentRegion__23e6b .item_b3f026.selected_b3f026:not(.tabBarItem__81b3e) {
+    #app-mount .contentRegion__23e6b .item_b3f026.selected_b3f026:not(.tab_f8303a, .settingsTabBarItem_dc2e0e, .tabBarItem__81b3e) {
         background-color: var(--primary3-colour);
     }
 
     
     #app-mount .lookFilled__201d5:not(.shinyButton__6a443, .collapseBtn_a4a127, .buttonColor_e131a9, .colorWhite__201d5, .colorBrandInverted__201d5), 
     #app-mount .barFill_a562c8,
-    #app-mount .container__87bf1.checked__87bf1 {
+    #app-mount .container__6f89e.checked__6f89e {
         background-color: var(--primary1-colour)!important;
     }
-    #app-mount .container__87bf1.checked__87bf1 svg path {fill: var(--primary1-colour)}
+
+    #app-mount .button_a22cb0.primary_a22cb0:not(.shinyButton__6a443, .collapseBtn_a4a127, .buttonColor_e131a9, .colorWhite__201d5, .colorBrandInverted__201d5) {
+        background-color: var(--primary3-colour);
+    }
+    #app-mount .button_a22cb0.primary_a22cb0:not(.shinyButton__6a443, .collapseBtn_a4a127, .buttonColor_e131a9, .colorWhite__201d5, .colorBrandInverted__201d5) span,
+    #app-mount .lookFilled__201d5:not(.shinyButton__6a443, .collapseBtn_a4a127, .buttonColor_e131a9, .colorWhite__201d5, .colorBrandInverted__201d5) .contents__201d5 {
+        color: var(--activetext-colour);
+    }
+
+    #app-mount .container__6f89e.checked__6f89e svg path {fill: var(--primary1-colour)}
+
+    #app-mount .lookOutlined__201d5.colorRed__201d5 { background-color: var(--primary4-colour); }
 
     
     #app-mount .select__3f413 {
@@ -585,16 +635,49 @@
         padding-left: 15px;
         padding-right: 15px;
     }
-    #app-mount .card_b846e5:hover {
-        background-color: var(--secondary1-colour);
-        border-radius: 3px;
+    #app-mount .card_b846e5{ border-radius: 3px; }
+    #app-mount .card_b846e5 .removeGame_cc46f0 { background-color: var(--secondary3-colour); }
+
+    #app-mount .popout__3f413 {
+        background-color: var(--secondary3-colour);
     }
 
-
-
     /*User Settings*/
-        #app-mount .accountProfileCard__1fed1 {background-color: var(--secondary1-colour);}       
+        #app-mount .accountProfileCard__1fed1 {background-color: var(--secondary1-colour);}   
         
+        #app-mount .accountProfileCard__1fed1 .background__1fed1 { background-color: var(--secondary3-colour); }
+        #app-mount .accountProfileCard__1fed1 .background__1fed1 .fieldList__1fed1 { background-color: transparent; }
+
+        #app-mount .channelTextArea__74017:focus-within { border-color: var(--primary1-colour) ; }
+
+        #app-mount .button__201d5.lookLink__201d5 { color: var(--primary1-colour); }
+        
+        #app-mount .radioIndicator__001a7.radioIndicatorChecked__001a7 .refreshIconFill__001a7 { fill: var(--primary1-colour); }
+        #app-mount .radioIndicator__001a7.radioIndicatorChecked__001a7 .refreshIconStroke__001a7 { stroke: var(--primary1-colour); }
+
+
+        #app-mount .expandedProgressBarContainerSettingsPage_a61c56,
+        #app-mount .giftCard_a45ed3 { 
+            background-color: var(--secondary3-colour); 
+        }
+
+
+        #app-mount .detailsBlock_e335a7,
+        #app-mount .paymentPane__01014 { 
+            background-color: var(--secondary3-colour); 
+        }
+
+        #app-mount .verticalFit__01014.paginator__01014 { background-color: transparent; }
+        #app-mount .paymentRow__01014 { background-color: transparent; }
+
+        #app-mount .paymentPane__01014 .expandedInfo_e9cb00 { background-color: var(--secondary2-colour); }
+
+        
+        #app-mount .switchContainer_eda416 { background-color: var(--secondary3-colour); }
+        #app-mount .myServersContainer_eda416 .headerContainer__7db08 { background-color: transparent; }
+        #app-mount .myServersContainer_eda416 .headerContainer__7db08 .container_a45028:focus-within { border-color: var(--primary1-colour); }
+
+
         #app-mount .tabBar_d6f9e9 .tabBarItem_d6f9e9.selected_b3f026,
         #app-mount .tabBar_d6f9e9 .tabBarItem_d6f9e9:hover {
             border-color: var(--primary1-colour)
@@ -629,13 +712,9 @@
         #app-mount .contentRegion__23e6b .appliedBoostContainer_ceb06a { background-color: transparent; }
         #app-mount .contentRegion__23e6b .appliedBoostContainer_ceb06a .boostContainer_ceb06a {background-color: var(--secondary3-colour);}
 
-        #app-mount .contentRegion__23e6b { 
-            justify-content: center;
-        }
-
         #app-mount .contentRegion__23e6b .content__99f8c {justify-content: center;}
 
-        #app-mount .contentRegion__23e6b .customContainer__23e6b { position: relative; }
+        #app-mount .contentRegion__23e6b .customContainer__23e6b { justify-content: center; }
         #app-mount .contentRegion__23e6b ::-webkit-scrollbar-track { background-color: transparent; }
 
         #app-mount .bd-switch-checked .bd-switch-body {background-color: var(--primary1-colour)}
@@ -658,11 +737,39 @@
             background-color: var(--secondary1-colour);
         }
 
+        #app-mount .contentRegion__23e6b .card__5cea9 { background-color: var(--secondary3-colour); }
+        #app-mount .contentRegion__23e6b .header__5cea9 { background-color: var(--secondary2-colour); }
+
+        #app-mount .tab_f8303a.selected_b3f026,
+        #app-mount .settingsTabBarItem_dc2e0e.selected_b3f026,
+        #app-mount .tabBarItem__81b3e.selected_b3f026 { 
+            color: var(--primary1-colour); 
+        }
+        #app-mount .tab_f8303a::after,
+        #app-mount .settingsTabBarItem_dc2e0e::after,
+        #app-mount .tabBarItem__81b3e::after { 
+            background-color: var(--primary1-colour); 
+        }
+
+        #app-mount .contentRegion__23e6b .emptyContainer_de8069 { background-color: var(--secondary3-colour); }
+
+        #app-mount .contentRegion__23e6b .box_f8c98c { background-color: var(--secondary3-colour); }
+
+        #app-mount .contentRegion__23e6b .authedAppV2__50a54 { background-color: var(--secondary3-colour); }
+        #app-mount .contentRegion__23e6b .authedAppV2__50a54 .headerV2__50a54 { background-color: var(--secondary2-colour); }
+
+        #app-mount .header__217b7 .groupContent__9d98d { background-color: var(--secondary2-colour); }
+        #app-mount .overlayEnabledSettingsContainer__9d98d .collapseable__217b7 { background-color: var(--secondary3-colour); }
+        #app-mount .overlayEnabledSettingsContainer__9d98d .groupCollapsedContainer__9d98d,
+        #app-mount .overlayEnabledSettingsContainer__9d98d .groupCollapsedContainer__9d98d .groupContainer__9d98d { 
+            background-color: transparent; 
+        }
+
     /*Server Settings*/
         #app-mount .header_c6bf1b {background-color: var(--secondary3-colour);}
 
-        #app-mount .tabBar__81b3e .tabBarItem__81b3e.selected_b3f026,
-        #app-mount .tabBar__81b3e .tabBarItem__81b3e:hover {
+        #app-mount .tabBar__81b3e .tab_f8303a.selected_b3f026,
+        #app-mount .tabBar__81b3e .tab_f8303a:hover {
             border-color: var(--primary1-colour)
         }
 
@@ -712,14 +819,14 @@
             background-color: var(--secondary3-colour);
         }
 
-        #app-mount .tier_f15dca .tierHeader_f15dca {background-color: var(--secondary3-colour);}
-        #app-mount .tier_f15dca .tierBody_f15dca {background-color: var(--secondary1-colour);}
+        #app-mount .tier_a36dee .tierHeader_a36dee {background-color: var(--secondary3-colour);}
+        #app-mount .tier_a36dee .tierBody_a36dee {background-color: var(--secondary1-colour);}
         
         #app-mount .directoryModal-YJsOMv .content_da3f59 {
             max-width: 76%;
             margin: 0;
             padding: 32px 15% 64px 15%;
-            background-image: var(--transparency-1);
+            background-color: var(--secondary4-colour);
         }
         #app-mount .directoryModal-YJsOMv {
             background-image: var(--background); 
@@ -734,6 +841,44 @@
         #app-mount .group__344e6 .item__344e6:hover {background-color: var(--secondary2-colour);}
 
         #app-mount .settingCard-xZSDjS {background-color: var(--secondary1-colour);}
+
+        #app-mount .mainTableContainer_fa2640,
+        #app-mount .scrollerContainer_cdb2b0,
+        #app-mount .editCard_a25a68 { 
+            background-color: var(--secondary3-colour); 
+        }
+
+        #app-mount .setupContainer_d03b93 .contentExpandContainer__217b7,
+        #app-mount .setupContainer_d03b93 .backgroundModifierContainer__6cd3a,
+        #app-mount .setupContainer_d03b93 .clickableContainer__6cd3a,
+        #app-mount .setupContainer_d03b93 .container__6cd3a,
+        #app-mount .setupContainer_d03b93 .collapseable__217b7 { 
+            background-color: transparent; 
+        }
+
+        #app-mount .setupContainer_d03b93 .header__217b7 { background-color: var(--secondary3-colour); }
+
+        #app-mount .setupContainer_d03b93 .groupCollapsedRow_ba5386 { background-color: var(--secondary1-colour); }
+
+        #app-mount .saveNoticeContainer__51673 .container_fcf29c { background-color: var(--secondary3-colour); }
+
+        #app-mount .contentRegion__23e6b .container_d8f25b {background-color: var(--secondary3-colour);}
+        #app-mount .contentRegion__23e6b .container_d8f25b:hover {background-color: var(--secondary2-colour);}
+
+        #app-mount .titleContainer_e29cd7,
+        #app-mount .contentRegion__23e6b .scroller__53543 {
+            background-color: transparent;
+        }
+
+        #app-mount .settingCard__1a4ef:not(.active__1a4ef ) { background-color: var(--secondary3-colour); }
+        #app-mount .settingCard__1a4ef.active__1a4ef { background-color: transparent; }
+        #app-mount .settingCard__1a4ef.active__1a4ef .cardContent_f62fce { 
+            background-color: var(--secondary2-colour); 
+            border-radius: 8px 8px 0 0 ;
+        }
+        #app-mount .settingCard__1a4ef.active__1a4ef .cardFolder__1a4ef { background-color: var(--secondary3-colour); }
+
+
 
 /*ChangeLog And Other Popups*/
     #app-mount .modal__4f3da,
@@ -759,6 +904,8 @@
     #app-mount .root__49fc1 {
         box-shadow: none;
     }
+
+    #app-mount .root__49fc1 .container__0f084:focus-within { border-color: var(--primary1-colour); }
 
     #app-mount .header__49fc1 {
         background-color: var(--primary3-colour);
@@ -787,9 +934,20 @@
         background-color: var(--secondary3-colour);
     }
 
-    #app-mount .container__4e30a { 
+    #app-mount .container__4e30a,
+    #app-mount .container_d5ae15 { 
         background-color: var(--secondary3-colour); 
     }
+
+    /* Permission Popup */
+        #app-mount .container__53cea { background-color: var(--secondary3-colour); }
+        
+        #app-mount .checkbox_c4538f.checked_c4538f { 
+            background-color: var(--primary1-colour); 
+            border-color: var(--primary1-colour);
+        }
+
+        #app-mount .container__53cea .container__0e476 .anchor_edefb8 { background-color: var(--secondary2-colour); }
 
     /*BetterDiscord Popups and other bits*/
         #app-mount .bd-modal-header { background-color: var(--primary3-colour); }
@@ -908,7 +1066,7 @@
         background-color: var(--secondary2-colour);
     }
 
-    #app-mount .container-1Lk8p7 .input__0f084,
+    #app-mount .container-1Lk8p7 .input__0ed4f,
     #app-mount .container-1Lk8p7 .input-m1-Y7Q {
         background-color: var(--secondary1-colour);
     }
@@ -933,8 +1091,8 @@
         background-color: var(--secondary3-colour);
         border-radius: 10px;
     }
-    #app-mount .animatorTop_faf9c0 .soundButtonRefresh__6d4ed { background-color: var(--secondary1-colour); }
-    #app-mount .animatorTop_faf9c0 .soundButtonRefresh__6d4ed:hover { background-color: var(--secondary2-colour); }
+    #app-mount .animatorTop_faf9c0 .soundButtonRefresh__9be63 { background-color: var(--secondary1-colour); }
+    #app-mount .animatorTop_faf9c0 .soundButtonRefresh__9be63:hover { background-color: var(--secondary2-colour); }
 
     #app-mount .contentWrapper__08434 .categoryFadeBlurple_d02962 {background-color: var(--primary3-colour);}
 
@@ -943,22 +1101,16 @@
     #app-mount .contentWrapper__08434 .result__2dc39[style*="background-color: var(--premium-tier-1"] {background-color: var(--primary3-colour)!important;}
     #app-mount .contentWrapper__08434 .result__2dc39[style*="background-color: rgb(146, 154, 250);"] {background-color: var(--primary2-colour)!important}
 
-/*TopBar*/
-    #app-mount .typeWindows__421ed {
-        background-color: var(--secondary3-colour); 
-        border-bottom: 2px solid var(--primary3-colour); 
-        height: 30px;
-        margin: 0px;
-    }
-    #app-mount .typeWindows__421ed:after {
-        content: "GGO Kirito v1.3.8 By VaporousCreeper";
+/*TopBar*/ 
+    #app-mount .title_c38106::before {
+        content: "GGO Kirito v1.4.0 By VaporousCreeper";
         color: rgb(255,255,255,0.5);
         font-weight: 500;
 
-        position: absolute;
-        top: 8px;
-        left: 43.2%;
+        position: left;
+        margin-right: 10px;
     }
-
-    #app-mount .wordmark__421ed {top: 3.3px;}
-    #app-mount .winButton__421ed {top: 2px;}
+    #app-mount .title_c38106 {
+        background-color: var(--secondary3-colour);
+        border-bottom: 3px solid var(--primary3-colour)
+    }
