@@ -1,5 +1,5 @@
 # GGO Kirito
-![Preview](https://raw.githubusercontent.com/VaporousCreeper/BetterDiscord-ThemesAndPlugins/master/Themes/GGO_Kirito/GGOThumbnail.PNG)
+![Preview](https://raw.githubusercontent.com/VaporousCreeper/BetterDiscord-ThemesAndPlugins/refs/heads/master/Themes/GGO_Kirito/GGOThumbnail-1.4.0.PNG)
 
 
 ## Download
@@ -31,6 +31,5 @@ You can use this method is install other themes or plugins.
 
 ## Credits 
 Background Img: https://images.alphacoders.com/632/632525.png \
-Transparency2 Module: https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Modules/transparency2.css - By Ruben7173#5048
 
-The 2 items above are not owned by me. They go to their respected owners
+The items above are not owned by me. They go to their respected owners
